@@ -1,0 +1,1568 @@
+2023/06/29 00:32:00 Request: POST /loginAdmin
+Payload: 
+Response: 200 OK
+Payload: {"Authenticated":true}
+Duration: 678.647µs
+2023/06/29 00:32:00 [debian-server/HgvHyx9vOu-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:59955 - 200 22B in 826.03µs
+2023/06/29 00:32:06 Request: POST /loginAdmin
+Payload: 
+Response: 200 OK
+Payload: {"Authenticated":false}
+Duration: 842.653µs
+2023/06/29 00:32:06 [debian-server/HgvHyx9vOu-000002] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:59955 - 200 23B in 876.255µs
+2023/06/29 00:34:02 Request: POST /loginAdmin
+Payload: 
+Response: 200 OK
+Payload: {"Authenticated":false}
+Duration: 563.545µs
+2023/06/29 00:34:02 [debian-server/Eyj0NdKc2O-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60047 - 200 23B in 599.604µs
+2023/06/29 00:35:00 Request: POST /loginAdmin
+Payload: 
+Response: 200 OK
+Payload: {"Authenticated":true}
+Duration: 618.555µs
+2023/06/29 00:35:00 [debian-server/lPJCcTaIKK-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60092 - 200 22B in 658.217µs
+2023/06/29 00:36:56 Request: POST /loginAdmin
+2023/06/29 00:36:56 Payload: [Empty]
+2023/06/29 00:36:56 Response: 200 OK
+2023/06/29 00:36:56 Duration: 710.5µs
+2023/06/29 00:36:56 [debian-server/lVHzWS9zkj-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60161 - 200 22B in 753.965µs
+2023/06/29 00:37:43 Request: POST /loginAdmin
+2023/06/29 00:37:43 Payload: [Empty]
+2023/06/29 00:37:43 Response: 200 OK
+2023/06/29 00:37:43 Duration: 1.322508ms
+2023/06/29 00:37:43 [debian-server/V5LDlAqHnM-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60190 - 200 22B in 1.410954ms
+2023/06/29 00:40:12 Request: POST /loginAdmin
+2023/06/29 00:40:12 Payload: [Empty]
+2023/06/29 00:40:12 Response: 200 OK
+2023/06/29 00:40:12 Duration: 541.221µs
+2023/06/29 00:40:12 
+2023/06/29 00:40:12 [debian-server/NDhpVmhBgS-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60289 - 200 22B in 594.917µs
+2023/06/29 00:40:19 Request: POST /loginAdmin
+2023/06/29 00:40:19 Payload: [Empty]
+2023/06/29 00:40:19 Response: 200 OK
+2023/06/29 00:40:19 Duration: 1.057281ms
+2023/06/29 00:40:19 
+2023/06/29 00:40:19 [debian-server/NDhpVmhBgS-000002] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60289 - 200 22B in 1.107771ms
+2023/06/29 00:41:17 Request: POST /loginAdmin
+Payload: 
+Response: 200 OK
+Payload: {"Authenticated":true}
+Duration: 815.463µs
+2023/06/29 00:41:17 
+2023/06/29 00:41:17 [debian-server/HfuCTDQZLC-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60339 - 200 22B in 859.16µs
+2023/06/29 00:41:28 Request: POST /loginAdmin
+Payload: 
+Response: 200 OK
+Payload: {"Authenticated":true}
+Duration: 1.040602ms
+2023/06/29 00:41:28 
+2023/06/29 00:41:28 [debian-server/HfuCTDQZLC-000002] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60339 - 200 22B in 1.095229ms
+2023/06/29 00:42:00 Request: POST /loginAdmin
+2023/06/29 00:42:00 Payload: [Empty]
+2023/06/29 00:42:00 Response: 200 OK
+2023/06/29 00:42:00 Duration: 1.001353ms
+2023/06/29 00:42:00 
+2023/06/29 00:42:00 [debian-server/vnTrLBYFBI-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60372 - 200 22B in 1.052012ms
+2023/06/29 00:43:16 Request: POST /loginAdmin
+2023/06/29 00:43:16 Payload: [Empty]
+2023/06/29 00:43:16 Response: 200 OK
+Payload: {"Authenticated":true}
+2023/06/29 00:43:16 Duration: 511.409µs
+2023/06/29 00:43:16 
+2023/06/29 00:43:16 [debian-server/bdV8Yd21uB-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60431 - 200 22B in 560.467µs
+2023/06/29 00:44:18 Request: POST /loginAdmin
+2023/06/29 00:44:18 Payload: {
+    "Username" : "admin",
+    "Password" : "0192023a7bbd73250516f069df18b500"
+}
+2023/06/29 00:44:18 Response: 200 OK
+Payload: {"Authenticated":true}
+2023/06/29 00:44:18 Duration: 954.384µs
+2023/06/29 00:44:18 
+2023/06/29 00:44:18 [debian-server/LcVwsmQ0lS-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60472 - 200 22B in 997.855µs
+2023/06/29 00:47:45 Request: POST /loginAdmin
+2023/06/29 00:47:45 Request Payload: {
+    "Username" : "admin",
+    "Password" : "0192023a7bbd73250516f069df18b500"
+}
+2023/06/29 00:47:45 Request Response: 200 OK
+Payload: {"Authenticated":true,"UserType":"Admin"}
+2023/06/29 00:47:45 Duration: 932.414µs
+2023/06/29 00:47:45 
+2023/06/29 00:47:45 [debian-server/IHsvFDEg52-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60610 - 200 41B in 980.354µs
+2023/06/29 00:47:57 Request: POST /loginAdmin
+2023/06/29 00:47:57 Request Payload: {
+    "Username" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb"
+}
+2023/06/29 00:47:57 Request Response: 200 OK
+Payload: {"Authenticated":true,"UserType":"Admin"}
+2023/06/29 00:47:57 Duration: 882.968µs
+2023/06/29 00:47:57 
+2023/06/29 00:47:57 [debian-server/IHsvFDEg52-000002] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60610 - 200 41B in 942.599µs
+2023/06/29 00:48:19 Request: POST /loginAdmin
+2023/06/29 00:48:19 Request Payload: {
+    "Username" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb"
+}
+2023/06/29 00:48:19 Request Response: 200 OK
+Payload: {"Authenticated":true,"UserType":"Admin"}
+2023/06/29 00:48:19 Duration: 787.951µs
+2023/06/29 00:48:19 
+2023/06/29 00:48:19 [debian-server/IHsvFDEg52-000003] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60610 - 200 41B in 866.524µs
+2023/06/29 00:49:29 Request: POST /loginAdmin
+2023/06/29 00:49:29 Request Payload: {
+    "Username" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb"
+}
+2023/06/29 00:49:29 Request Response: 200 OK
+Payload: {"Authenticated":false,"UserType":"Admin"}
+2023/06/29 00:49:29 Duration: 557.047µs
+2023/06/29 00:49:29 
+2023/06/29 00:49:29 [debian-server/KR4tvzz97c-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60678 - 200 42B in 604.882µs
+2023/06/29 00:50:27 Request: POST /loginAdmin
+2023/06/29 00:50:27 Request Payload: {
+    "Username" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb"
+}
+2023/06/29 00:50:27 Request Response: 200 OK
+Payload: {"Authenticated":false,"UserType":""}
+2023/06/29 00:50:27 Duration: 937.075µs
+2023/06/29 00:50:27 
+2023/06/29 00:50:27 [debian-server/v5zl2NybHo-000001] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60718 - 200 37B in 983.498µs
+2023/06/29 00:50:32 Request: POST /loginAdmin
+2023/06/29 00:50:32 Request Payload: {
+    "Username" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb"
+}
+2023/06/29 00:50:32 Request Response: 200 OK
+Payload: {"Authenticated":false,"UserType":""}
+2023/06/29 00:50:32 Duration: 781.037µs
+2023/06/29 00:50:32 
+2023/06/29 00:50:32 [debian-server/v5zl2NybHo-000002] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60718 - 200 37B in 825.298µs
+2023/06/29 00:51:03 Request: POST /loginAdmin
+2023/06/29 00:51:03 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb",
+    "dateOfBirth": "09/10/1997"
+}
+2023/06/29 00:51:03 Request Response: 200 OK
+Payload: {"Authenticated":false,"UserType":""}
+2023/06/29 00:51:03 Duration: 1.208802ms
+2023/06/29 00:51:03 
+2023/06/29 00:51:03 [debian-server/v5zl2NybHo-000003] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60718 - 200 37B in 1.297197ms
+2023/06/29 00:51:32 Request: POST /loginStudent
+2023/06/29 00:51:32 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb",
+    "dateOfBirth": "09/10/1997"
+}
+2023/06/29 00:51:32 Request Response: 404 Not Found
+Payload: 404 page not found
+
+2023/06/29 00:51:32 Duration: 19.193µs
+2023/06/29 00:51:32 
+2023/06/29 00:51:32 [debian-server/v5zl2NybHo-000004] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:60718 - 404 19B in 91.504µs
+2023/06/29 00:51:42 Request: POST /loginStudent
+2023/06/29 00:51:42 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb",
+    "dateOfBirth": "09/10/1997"
+}
+2023/06/29 00:51:42 Request Response: 200 OK
+Payload: {"Authenticated":true,"UserType":"Student"}
+2023/06/29 00:51:42 Duration: 586.78µs
+2023/06/29 00:51:42 
+2023/06/29 00:51:42 [debian-server/hQB7oBijWN-000001] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:60776 - 200 43B in 647.116µs
+2023/06/29 00:51:47 Request: POST /loginStudent
+2023/06/29 00:51:47 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb",
+}
+2023/06/29 00:51:47 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 00:51:47 Duration: 26.194µs
+2023/06/29 00:51:47 
+2023/06/29 00:51:47 [debian-server/hQB7oBijWN-000002] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:60776 - 400 4B in 72.169µs
+2023/06/29 00:51:49 Request: POST /loginStudent
+2023/06/29 00:51:49 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "f47636673b14c54021a69dc06f6a19fb"
+}
+2023/06/29 00:51:49 Request Response: 200 OK
+Payload: {"Authenticated":false,"UserType":""}
+2023/06/29 00:51:49 Duration: 777.198µs
+2023/06/29 00:51:49 
+2023/06/29 00:51:49 [debian-server/hQB7oBijWN-000003] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:60776 - 200 37B in 822.662µs
+2023/06/29 00:52:09 Request: POST /loginStudent
+2023/06/29 00:52:09 Request Payload: {
+    "Username" : "admin",
+    "Password" : "0192023a7bbd73250516f069df18b500"
+}
+2023/06/29 00:52:09 Request Response: 200 OK
+Payload: {"Authenticated":false,"UserType":""}
+2023/06/29 00:52:09 Duration: 581.131µs
+2023/06/29 00:52:09 
+2023/06/29 00:52:09 [debian-server/hQB7oBijWN-000004] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:60776 - 200 37B in 634.08µs
+2023/06/29 00:52:16 Request: POST /loginAdmin
+2023/06/29 00:52:16 Request Payload: {
+    "Username" : "admin",
+    "Password" : "0192023a7bbd73250516f069df18b500"
+}
+2023/06/29 00:52:16 Request Response: 200 OK
+Payload: {"Authenticated":true,"UserType":"Admin"}
+2023/06/29 00:52:16 Duration: 930.511µs
+2023/06/29 00:52:16 
+2023/06/29 00:52:16 [debian-server/hQB7oBijWN-000005] "POST http://192.168.254.170:8082/loginAdmin HTTP/1.1" from 192.168.254.107:60776 - 200 41B in 1.001685ms
+2023/06/29 01:29:37 Request: POST /createStudent
+2023/06/29 01:29:37 Request Payload: {
+    "StudentNumber" : 123,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 01:29:37 Request Response: 200 OK
+Payload: {"Successful":true}
+2023/06/29 01:29:37 Duration: 8.300291ms
+2023/06/29 01:29:37 
+2023/06/29 01:29:37 [debian-server/wKPnqi1Het-000001] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:61424 - 200 19B in 8.359713ms
+2023/06/29 01:29:46 Request: POST /loginStudent
+2023/06/29 01:29:46 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "082e7a4e13eeef245e5aa841894bc387",
+    "dateOfBirth": "09/10/1997"
+}
+2023/06/29 01:29:46 Request Response: 200 OK
+Payload: {"Authenticated":true,"UserType":"Student"}
+2023/06/29 01:29:46 Duration: 694.161µs
+2023/06/29 01:29:46 
+2023/06/29 01:29:46 [debian-server/wKPnqi1Het-000002] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:61424 - 200 43B in 741.737µs
+2023/06/29 01:35:45 Request: POST /createStudent
+2023/06/29 01:35:45 Request Payload: {
+    "StudentNumber" : 123,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 01:35:45 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 01:35:45 Duration: 1.457541ms
+2023/06/29 01:35:45 
+2023/06/29 01:35:45 [debian-server/wKPnqi1Het-000003] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:61424 - 400 4B in 1.523635ms
+2023/06/29 01:37:32 Request: POST /createStudent
+2023/06/29 01:37:32 Request Payload: {
+    "StudentNumber" : 123,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 01:37:32 Request Response: 400 Bad Request
+Payload: {"Successful":false,"Message":"Student Number should be unique"}
+2023/06/29 01:37:32 Duration: 1.61681ms
+2023/06/29 01:37:32 
+2023/06/29 01:37:32 [debian-server/uaKkmcasUk-000001] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:61501 - 400 64B in 1.67616ms
+2023/06/29 02:12:05 Request: POST /readStudent
+2023/06/29 02:12:05 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:12:05 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 02:12:05 Duration: 2.707µs
+2023/06/29 02:12:05 
+2023/06/29 02:12:05 [debian-server/tjhK4I0Hbn-000001] "POST http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62021 - 405 0B in 434.516µs
+2023/06/29 02:12:12 Request: GET /readStudent
+2023/06/29 02:12:12 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:12:12 Request Response: 200 OK
+Payload: {"Username":123,"StudentNumber":123,"UserID":3,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"","ContactNumber":"09164385846"}
+2023/06/29 02:12:12 Duration: 2.72734ms
+2023/06/29 02:12:12 
+2023/06/29 02:12:12 [debian-server/tjhK4I0Hbn-000002] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62021 - 200 206B in 2.780557ms
+2023/06/29 02:12:52 Request: GET /readStudent
+2023/06/29 02:12:52 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:12:52 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 02:12:52 Duration: 595.46µs
+2023/06/29 02:12:52 
+2023/06/29 02:12:52 [debian-server/5If0TMgeP0-000001] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62037 - 400 4B in 643.411µs
+2023/06/29 02:12:56 Request: GET /readStudent
+2023/06/29 02:12:56 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:12:56 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 02:12:56 Duration: 419.911µs
+2023/06/29 02:12:56 
+2023/06/29 02:12:56 [debian-server/5If0TMgeP0-000002] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62037 - 400 4B in 467.639µs
+2023/06/29 02:14:30 Request: POST /createStudent
+2023/06/29 02:14:30 Request Payload: {
+    "StudentNumber" : 123,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 02:14:30 Request Response: 400 Bad Request
+Payload: {"Successful":false,"Message":"Student Number should be unique"}
+2023/06/29 02:14:30 Duration: 1.261218ms
+2023/06/29 02:14:30 
+2023/06/29 02:14:30 [debian-server/2CVQeyT6hU-000001] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:62059 - 400 64B in 1.321434ms
+2023/06/29 02:14:58 Request: POST /createStudent
+2023/06/29 02:14:58 Request Payload: {
+    "StudentNumber" : 123,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 02:14:58 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 02:14:58 Duration: 14.966235ms
+2023/06/29 02:14:58 
+2023/06/29 02:14:58 [debian-server/2CVQeyT6hU-000002] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:62059 - 200 32B in 15.020699ms
+2023/06/29 02:16:18 Request: POST /createStudent
+2023/06/29 02:16:18 Request Payload: {
+    "StudentNumber" : 123,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 02:16:18 Request Response: 400 Bad Request
+Payload: {"Successful":false,"Message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Address\n\t)\n\tValues(?,?,?,?,?,?,?,?,?,?)' at line 11"}
+2023/06/29 02:16:18 Duration: 16.956593ms
+2023/06/29 02:16:18 
+2023/06/29 02:16:18 [debian-server/mNwN19ojQ8-000001] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:62083 - 400 245B in 17.016343ms
+2023/06/29 02:16:49 Request: POST /createStudent
+2023/06/29 02:16:49 Request Payload: {
+    "StudentNumber" : 123,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 02:16:49 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 02:16:49 Duration: 10.037132ms
+2023/06/29 02:16:49 
+2023/06/29 02:16:49 [debian-server/aYU2qOXMF0-000001] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:62093 - 200 32B in 10.109708ms
+2023/06/29 02:17:03 Request: GET /readStudent
+2023/06/29 02:17:03 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:17:03 Request Response: 200 OK
+Payload: {"Username":123,"StudentNumber":123,"UserID":6,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}
+2023/06/29 02:17:03 Duration: 776.776µs
+2023/06/29 02:17:03 
+2023/06/29 02:17:03 [debian-server/aYU2qOXMF0-000002] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62093 - 200 222B in 829.044µs
+2023/06/29 02:17:11 Request: GET /readStudent
+2023/06/29 02:17:11 Request Payload: {
+}
+2023/06/29 02:17:11 Request Response: 200 OK
+Payload: [{"Username":0,"Password":"862c0159371ae4ea099ec7318a3e7d7a","StudentNumber":0,"UserID":6,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 02:17:11 Duration: 529.759µs
+2023/06/29 02:17:11 
+2023/06/29 02:17:11 [debian-server/aYU2qOXMF0-000003] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62093 - 200 266B in 575.949µs
+2023/06/29 02:19:39 Request: GET /readStudent
+2023/06/29 02:19:39 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:19:39 Request Response: 200 OK
+Payload: {"Username":123,"StudentNumber":123,"UserID":6,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}
+2023/06/29 02:19:39 Duration: 511.532µs
+2023/06/29 02:19:39 
+2023/06/29 02:19:39 [debian-server/vYbllBFTvu-000001] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62147 - 200 222B in 560.946µs
+2023/06/29 02:19:44 Request: GET /readStudent
+2023/06/29 02:19:44 Request Payload: {
+}
+2023/06/29 02:19:44 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"862c0159371ae4ea099ec7318a3e7d7a","StudentNumber":123,"UserID":6,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 02:19:44 Duration: 537.748µs
+2023/06/29 02:19:44 
+2023/06/29 02:19:44 [debian-server/vYbllBFTvu-000002] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62147 - 200 270B in 598.595µs
+2023/06/29 02:20:01 Request: POST /createStudent
+2023/06/29 02:20:01 Request Payload: {
+    "StudentNumber" : 1234,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 02:20:01 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 02:20:01 Duration: 13.845278ms
+2023/06/29 02:20:01 
+2023/06/29 02:20:01 [debian-server/vYbllBFTvu-000003] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:62147 - 200 32B in 13.890469ms
+2023/06/29 02:20:04 Request: GET /readStudent
+2023/06/29 02:20:04 Request Payload: {
+}
+2023/06/29 02:20:04 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"862c0159371ae4ea099ec7318a3e7d7a","StudentNumber":123,"UserID":6,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":1234,"Password":"3e91e7229280ac278f8284673f578ab2","StudentNumber":1234,"UserID":7,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 02:20:04 Duration: 711.178µs
+2023/06/29 02:20:04 
+2023/06/29 02:20:04 [debian-server/vYbllBFTvu-000004] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62147 - 200 541B in 810.608µs
+2023/06/29 02:20:17 Request: GET /readStudent
+2023/06/29 02:20:17 Request Payload: {
+    "StudentNumber": 1234
+}
+2023/06/29 02:20:17 Request Response: 200 OK
+Payload: {"Username":1234,"StudentNumber":1234,"UserID":7,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}
+2023/06/29 02:20:17 Duration: 912.843µs
+2023/06/29 02:20:17 
+2023/06/29 02:20:17 [debian-server/vYbllBFTvu-000005] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62147 - 200 224B in 961.247µs
+2023/06/29 02:20:20 Request: GET /readStudent
+2023/06/29 02:20:20 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:20:20 Request Response: 200 OK
+Payload: {"Username":123,"StudentNumber":123,"UserID":6,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}
+2023/06/29 02:20:20 Duration: 919.503µs
+2023/06/29 02:20:20 
+2023/06/29 02:20:20 [debian-server/vYbllBFTvu-000006] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62147 - 200 222B in 1.026867ms
+2023/06/29 02:36:59 Request: GET /readStudent
+2023/06/29 02:36:59 Request Payload: {
+}
+2023/06/29 02:36:59 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"862c0159371ae4ea099ec7318a3e7d7a","StudentNumber":123,"UserID":6,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":1234,"Password":"3e91e7229280ac278f8284673f578ab2","StudentNumber":1234,"UserID":7,"Name":"Karl Angelo Lim Navarro","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 02:36:59 Duration: 739.138µs
+2023/06/29 02:36:59 
+2023/06/29 02:36:59 [debian-server/vYbllBFTvu-000007] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62147 - 200 541B in 937.854µs
+2023/06/29 02:43:57 Request: GET /readStudent
+2023/06/29 02:43:57 Request Payload: {
+}
+2023/06/29 02:43:57 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"862c0159371ae4ea099ec7318a3e7d7a","StudentNumber":123,"UserID":6,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":1234,"Password":"3e91e7229280ac278f8284673f578ab2","StudentNumber":1234,"UserID":7,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 02:43:57 Duration: 490.407µs
+2023/06/29 02:43:57 
+2023/06/29 02:43:57 [debian-server/WPXeclsa3S-000001] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62434 - 200 673B in 548.299µs
+2023/06/29 02:44:08 Request: GET /readStudent
+2023/06/29 02:44:08 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:44:08 Request Response: 200 OK
+Payload: {"Username":123,"StudentNumber":123,"UserID":6,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}
+2023/06/29 02:44:08 Duration: 977.521µs
+2023/06/29 02:44:08 
+2023/06/29 02:44:08 [debian-server/WPXeclsa3S-000002] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62434 - 200 288B in 1.054351ms
+2023/06/29 02:44:19 Request: GET /readStudent
+2023/06/29 02:44:19 Request Payload: {
+    
+}
+2023/06/29 02:44:19 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"862c0159371ae4ea099ec7318a3e7d7a","StudentNumber":123,"UserID":6,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":1234,"Password":"3e91e7229280ac278f8284673f578ab2","StudentNumber":1234,"UserID":7,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 02:44:19 Duration: 531.191µs
+2023/06/29 02:44:19 
+2023/06/29 02:44:19 [debian-server/WPXeclsa3S-000003] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62434 - 200 673B in 577.741µs
+2023/06/29 02:44:51 Request: GET /readStudent
+2023/06/29 02:44:51 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:44:51 Request Response: 200 OK
+Payload: {"Username":123,"StudentNumber":123,"UserID":6,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}
+2023/06/29 02:44:51 Duration: 875.867µs
+2023/06/29 02:44:51 
+2023/06/29 02:44:51 [debian-server/WPXeclsa3S-000004] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62434 - 200 288B in 929.849µs
+2023/06/29 02:45:23 Request: GET /readStudent
+2023/06/29 02:45:23 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:45:23 Request Response: 200 OK
+Payload: {"Username":123,"StudentNumber":123,"UserID":6,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}
+2023/06/29 02:45:23 Duration: 667.076µs
+2023/06/29 02:45:23 
+2023/06/29 02:45:23 [debian-server/KIyL7Imfxu-000001] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62457 - 200 288B in 716.121µs
+2023/06/29 02:45:33 Request: GET /readStudent
+2023/06/29 02:45:33 Request Payload: {
+}
+2023/06/29 02:45:33 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"\ufffd,\u0001Y7\u001a\ufffd\ufffd\t\ufffd\ufffd1\ufffd\u003e}z","StudentNumber":123,"UserID":6,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":1234,"Password":"\u003e\ufffd\ufffd\"\ufffd\ufffd\ufffd'\ufffd\ufffd\ufffdg?W\ufffd\ufffd","StudentNumber":1234,"UserID":7,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 02:45:33 Duration: 654.975µs
+2023/06/29 02:45:33 
+2023/06/29 02:45:33 [debian-server/KIyL7Imfxu-000002] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:62457 - 200 743B in 719.025µs
+2023/06/29 02:56:04 Request: POST /createStudent
+2023/06/29 02:56:04 Request Payload: {
+    "StudentNumber" : 123,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 02:56:04 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 02:56:04 Duration: 11.343871ms
+2023/06/29 02:56:04 
+2023/06/29 02:56:04 [debian-server/Q2f1Q9m334-000001] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:54651 - 200 32B in 11.403182ms
+2023/06/29 02:56:41 Request: POST /createStudent
+2023/06/29 02:56:41 Request Payload: {
+    "StudentNumber" : 1234,
+    "FirstName" : "Karl Angelo",
+    "LastName" : "Lim",
+    "MiddleName" : "Navarro",
+    "Email" : "karlangelolim19@gmail.com",
+    "DateOfBirth" : "09/10/1997",
+    "GradeLevel" : "Prep",
+    "Address" : "123 test address",
+    "ContactNumber" : "09164385846"
+}
+2023/06/29 02:56:41 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 02:56:41 Duration: 15.617154ms
+2023/06/29 02:56:41 
+2023/06/29 02:56:41 [debian-server/Q2f1Q9m334-000002] "POST http://192.168.254.170:8082/createStudent HTTP/1.1" from 192.168.254.107:54651 - 200 32B in 15.666483ms
+2023/06/29 02:56:53 Request: GET /readStudent
+2023/06/29 02:56:53 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:56:53 Request Response: 200 OK
+Payload: {"Username":0,"StudentNumber":123,"UserID":8,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}
+2023/06/29 02:56:53 Duration: 1.333484ms
+2023/06/29 02:56:53 
+2023/06/29 02:56:53 [debian-server/Q2f1Q9m334-000003] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:54651 - 200 286B in 1.383328ms
+2023/06/29 02:57:18 Request: GET /readStudent
+2023/06/29 02:57:18 Request Payload: {
+    "StudentNumber": 123
+}
+2023/06/29 02:57:18 Request Response: 200 OK
+Payload: {"StudentNumber":123,"UserID":8,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}
+2023/06/29 02:57:18 Duration: 770.052µs
+2023/06/29 02:57:18 
+2023/06/29 02:57:18 [debian-server/OhCHVXpFFe-000001] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:54672 - 200 273B in 850.527µs
+2023/06/29 02:57:24 Request: GET /readStudent
+2023/06/29 02:57:24 Request Payload: {
+}
+2023/06/29 02:57:24 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"YwVgxMcX","StudentNumber":123,"UserID":8,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":1234,"Password":"neLzXL7r","StudentNumber":1234,"UserID":9,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 02:57:24 Duration: 608.132µs
+2023/06/29 02:57:24 
+2023/06/29 02:57:24 [debian-server/OhCHVXpFFe-000002] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:54672 - 200 625B in 679.486µs
+2023/06/29 03:06:49 Request: PUT /updateStudent
+2023/06/29 03:06:49 Request Payload: {
+    "StudentNumber" : 1234,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:06:49 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:06:49 Duration: 866.964µs
+2023/06/29 03:06:49 
+2023/06/29 03:06:49 [debian-server/2OV0girgXU-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54789 - 400 4B in 917.31µs
+2023/06/29 03:07:31 Request: PUT /updateStudent
+2023/06/29 03:07:31 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:07:31 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:07:31 Duration: 1.50523ms
+2023/06/29 03:07:31 
+2023/06/29 03:07:31 [debian-server/2OV0girgXU-000002] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54789 - 400 4B in 1.562809ms
+2023/06/29 03:08:07 Request: GET /readStudent
+2023/06/29 03:08:07 Request Payload: {
+}
+2023/06/29 03:08:07 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"YwVgxMcX","StudentNumber":123,"UserID":8,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":1234,"Password":"neLzXL7r","StudentNumber":1234,"UserID":9,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 03:08:07 Duration: 808.055µs
+2023/06/29 03:08:07 
+2023/06/29 03:08:07 [debian-server/2OV0girgXU-000003] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:54789 - 200 625B in 881.029µs
+2023/06/29 03:08:14 Request: PUT /updateStudent
+2023/06/29 03:08:14 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:08:14 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:08:14 Duration: 577.971µs
+2023/06/29 03:08:14 
+2023/06/29 03:08:14 [debian-server/2OV0girgXU-000004] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54789 - 400 4B in 642.648µs
+2023/06/29 03:08:50 Request: PUT /updateStudent
+2023/06/29 03:08:50 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:08:50 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:08:50 Duration: 1.438259ms
+2023/06/29 03:08:50 
+2023/06/29 03:08:50 [debian-server/K0xUf3yHLQ-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54820 - 400 4B in 1.521706ms
+2023/06/29 03:08:59 Request: PUT /updateStudent
+2023/06/29 03:08:59 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:08:59 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:08:59 Duration: 617.184µs
+2023/06/29 03:08:59 
+2023/06/29 03:08:59 [debian-server/K0xUf3yHLQ-000002] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54820 - 400 4B in 785.504µs
+2023/06/29 03:09:27 Request: PUT /updateStudent
+2023/06/29 03:09:27 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:09:27 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:09:27 Duration: 655.104µs
+2023/06/29 03:09:27 
+2023/06/29 03:09:27 [debian-server/sKAaA8QgzP-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54830 - 400 4B in 718.098µs
+2023/06/29 03:10:04 Request: PUT /updateStudent
+2023/06/29 03:10:04 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:10:04 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:10:04 Duration: 638.106µs
+2023/06/29 03:10:04 
+2023/06/29 03:10:04 [debian-server/sKAaA8QgzP-000002] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54830 - 400 4B in 687.538µs
+2023/06/29 03:10:10 Request: GET /readStudent
+2023/06/29 03:10:10 Request Payload: {
+}
+2023/06/29 03:10:10 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"YwVgxMcX","StudentNumber":123,"UserID":8,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":1234,"Password":"neLzXL7r","StudentNumber":1234,"UserID":9,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 03:10:10 Duration: 1.299328ms
+2023/06/29 03:10:10 
+2023/06/29 03:10:10 [debian-server/sKAaA8QgzP-000003] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:54830 - 200 625B in 1.361967ms
+2023/06/29 03:10:22 Request: PUT /updateStudent
+2023/06/29 03:10:22 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:10:22 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:10:22 Duration: 734.778µs
+2023/06/29 03:10:22 
+2023/06/29 03:10:22 [debian-server/sKAaA8QgzP-000004] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54830 - 400 4B in 809.1µs
+2023/06/29 03:11:05 Request: PUT /updateStudent
+2023/06/29 03:11:05 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:11:05 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:11:05 Duration: 931.687µs
+2023/06/29 03:11:05 
+2023/06/29 03:11:05 [debian-server/sKAaA8QgzP-000005] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54830 - 400 4B in 982.399µs
+2023/06/29 03:12:13 Request: PUT /updateStudent
+2023/06/29 03:12:13 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:12:13 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:12:13 Duration: 620.053µs
+2023/06/29 03:12:13 
+2023/06/29 03:12:13 [debian-server/47Fhg3mUcE-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54874 - 400 4B in 713.096µs
+2023/06/29 03:12:39 Request: PUT /updateStudent
+2023/06/29 03:12:39 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:12:39 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:12:39 Duration: 975.365µs
+2023/06/29 03:12:39 
+2023/06/29 03:12:39 [debian-server/YSym8dQa1A-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54882 - 400 4B in 1.022915ms
+2023/06/29 03:13:07 Request: PUT /updateStudent
+2023/06/29 03:13:07 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:13:07 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:13:07 Duration: 993.386µs
+2023/06/29 03:13:07 
+2023/06/29 03:13:07 [debian-server/sf0Sfoit8a-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54898 - 400 4B in 1.060586ms
+2023/06/29 03:13:52 Request: PUT /updateStudent
+2023/06/29 03:13:52 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:13:52 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:13:52 Duration: 32.056762ms
+2023/06/29 03:13:52 
+2023/06/29 03:13:52 [debian-server/458asKj5OZ-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54909 - 400 4B in 32.299423ms
+2023/06/29 03:14:59 Request: PUT /updateStudent
+2023/06/29 03:14:59 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:14:59 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:14:59 Duration: 976.609µs
+2023/06/29 03:14:59 
+2023/06/29 03:14:59 [debian-server/458asKj5OZ-000002] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54909 - 400 4B in 1.02666ms
+2023/06/29 03:15:10 Request: PUT /updateStudent
+2023/06/29 03:15:10 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:15:10 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:15:10 Duration: 2.735147ms
+2023/06/29 03:15:10 
+2023/06/29 03:15:10 [debian-server/JlkosnWg00-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54929 - 400 4B in 2.796892ms
+2023/06/29 03:16:03 Request: PUT /updateStudent
+2023/06/29 03:16:03 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:16:03 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:16:03 Duration: 727.717µs
+2023/06/29 03:16:03 
+2023/06/29 03:16:03 [debian-server/f7g723rnMg-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54940 - 400 4B in 778.924µs
+2023/06/29 03:16:31 Request: PUT /updateStudent
+2023/06/29 03:16:31 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:16:31 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:16:31 Duration: 1.259566ms
+2023/06/29 03:16:31 
+2023/06/29 03:16:31 [debian-server/akz8kE0In0-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54950 - 400 4B in 1.312861ms
+2023/06/29 03:17:26 Request: PUT /updateStudent
+2023/06/29 03:17:26 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:17:26 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:17:26 Duration: 587.962µs
+2023/06/29 03:17:26 
+2023/06/29 03:17:26 [debian-server/4hoxD8cdRF-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54971 - 400 4B in 637.463µs
+2023/06/29 03:18:12 Request: PUT /updateStudent
+2023/06/29 03:18:12 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:18:12 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:18:12 Duration: 595.384µs
+2023/06/29 03:18:12 
+2023/06/29 03:18:12 [debian-server/92GnbBVvK3-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:54979 - 400 4B in 644.256µs
+2023/06/29 03:19:33 Request: PUT /updateStudent
+2023/06/29 03:19:33 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:19:33 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:19:33 Duration: 730.975µs
+2023/06/29 03:19:33 
+2023/06/29 03:19:33 [debian-server/WWjBU9YBSu-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:55005 - 400 4B in 796.329µs
+2023/06/29 03:20:10 Request: PUT /updateStudent
+2023/06/29 03:20:10 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:20:10 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:20:10 Duration: 566.295µs
+2023/06/29 03:20:10 
+2023/06/29 03:20:10 [debian-server/0RQizXgarW-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:55013 - 400 4B in 625.5µs
+2023/06/29 03:20:29 Request: PUT /updateStudent
+2023/06/29 03:20:29 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:20:29 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:20:29 Duration: 4.882557ms
+2023/06/29 03:20:29 
+2023/06/29 03:20:29 [debian-server/wNJzDjFfEQ-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:55020 - 400 4B in 6.720352ms
+2023/06/29 03:21:14 Request: PUT /updateStudent
+2023/06/29 03:21:14 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:21:14 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:21:14 Duration: 942.976µs
+2023/06/29 03:21:14 
+2023/06/29 03:21:14 [debian-server/tD3da4JxIx-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:55034 - 400 4B in 995.823µs
+2023/06/29 03:22:04 Request: PUT /updateStudent
+2023/06/29 03:22:04 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:22:04 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 03:22:04 Duration: 9.068402ms
+2023/06/29 03:22:04 
+2023/06/29 03:22:04 [debian-server/rYAKnuLgpB-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:55041 - 400 4B in 9.158012ms
+2023/06/29 03:23:07 Request: PUT /updateStudent
+2023/06/29 03:23:07 Request Payload: {
+    "StudentNumber" : 12345,
+    "UserID": 9,
+    "FirstName": "test fname",
+    "MiddleName": "test mname",
+    "LastName": "test lname",
+    "Email": "test@email.com",
+    "DateOfBirth": "01/01/2000",
+    "GradeLevel": "test@email.com",
+    "Address": "test address update",
+    "ContactNumber": "09265554458"
+}
+2023/06/29 03:23:07 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 03:23:07 Duration: 9.161202ms
+2023/06/29 03:23:07 
+2023/06/29 03:23:07 [debian-server/APk3PUAeve-000001] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:55055 - 200 32B in 9.229749ms
+2023/06/29 03:23:30 Request: GET /readStudent
+2023/06/29 03:23:30 Request Payload: {
+}
+2023/06/29 03:23:30 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"YwVgxMcX","StudentNumber":123,"UserID":8,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":12345,"Password":"neLzXL7r","StudentNumber":12345,"UserID":9,"Name":"test fname test mname test lname","FirstName":"test fname","MiddleName":"test mname","LastName":"test lname","Email":"test@email.com","DateOfBirth":"01/01/2000","GradeLevel":"test@email.com","Address":"test address update","ContactNumber":"09265554458"}]
+2023/06/29 03:23:30 Duration: 1.632576ms
+2023/06/29 03:23:30 
+2023/06/29 03:23:30 [debian-server/APk3PUAeve-000002] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:55055 - 200 647B in 1.708601ms
+2023/06/29 03:23:56 Request: PUT /updateStudent
+2023/06/29 03:23:56 Request Payload: {
+    "UserID": 9,
+    "FirstName": "test fname1",
+    "MiddleName": "test mname1",
+    "LastName": "test lname1",
+    "Email": "test@email.com1",
+    "DateOfBirth": "01/01/2001",
+    "GradeLevel": "test@email1.com",
+    "Address": "test address update1",
+    "ContactNumber": "09261114458"
+}
+2023/06/29 03:23:56 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 03:23:56 Duration: 2.9772ms
+2023/06/29 03:23:56 
+2023/06/29 03:23:56 [debian-server/APk3PUAeve-000003] "PUT http://192.168.254.170:8082/updateStudent HTTP/1.1" from 192.168.254.107:55055 - 200 32B in 3.025588ms
+2023/06/29 03:24:03 Request: GET /readStudent
+2023/06/29 03:24:03 Request Payload: {
+}
+2023/06/29 03:24:03 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"YwVgxMcX","StudentNumber":123,"UserID":8,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"},{"Username":12345,"Password":"neLzXL7r","StudentNumber":12345,"UserID":9,"Name":"test fname1 test mname1 test lname1","FirstName":"test fname1","MiddleName":"test mname1","LastName":"test lname1","Email":"test@email.com1","DateOfBirth":"01/01/2001","GradeLevel":"test@email1.com","Address":"test address update1","ContactNumber":"09261114458"}]
+2023/06/29 03:24:03 Duration: 779.313µs
+2023/06/29 03:24:03 
+2023/06/29 03:24:03 [debian-server/APk3PUAeve-000004] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:55055 - 200 656B in 841.997µs
+2023/06/29 04:52:17 Request: DELETE /deleteStudent
+2023/06/29 04:52:17 Request Payload: {
+    "UserID": 9
+}
+2023/06/29 04:52:17 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 04:52:17 Duration: 15.030002ms
+2023/06/29 04:52:17 
+2023/06/29 04:52:17 [debian-server/vjeqgC8VNx-000001] "DELETE http://192.168.254.170:8082/deleteStudent HTTP/1.1" from 192.168.254.107:51041 - 200 32B in 15.0907ms
+2023/06/29 04:52:20 Request: DELETE /deleteStudent
+2023/06/29 04:52:20 Request Payload: {
+    "UserID": 9
+}
+2023/06/29 04:52:20 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 04:52:20 Duration: 31.906061ms
+2023/06/29 04:52:20 
+2023/06/29 04:52:20 [debian-server/vjeqgC8VNx-000002] "DELETE http://192.168.254.170:8082/deleteStudent HTTP/1.1" from 192.168.254.107:51041 - 200 32B in 32.530483ms
+2023/06/29 04:52:24 Request: DELETE /deleteStudent
+2023/06/29 04:52:24 Request Payload: {
+    "UserID": 9
+}
+2023/06/29 04:52:24 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 04:52:24 Duration: 686.765µs
+2023/06/29 04:52:24 
+2023/06/29 04:52:24 [debian-server/vjeqgC8VNx-000003] "DELETE http://192.168.254.170:8082/deleteStudent HTTP/1.1" from 192.168.254.107:51041 - 200 32B in 733.439µs
+2023/06/29 04:52:25 Request: DELETE /deleteStudent
+2023/06/29 04:52:25 Request Payload: {
+    "UserID": 9
+}
+2023/06/29 04:52:25 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 04:52:25 Duration: 2.189385ms
+2023/06/29 04:52:25 
+2023/06/29 04:52:25 [debian-server/vjeqgC8VNx-000004] "DELETE http://192.168.254.170:8082/deleteStudent HTTP/1.1" from 192.168.254.107:51041 - 200 32B in 2.366584ms
+2023/06/29 04:52:26 Request: DELETE /deleteStudent
+2023/06/29 04:52:26 Request Payload: {
+    "UserID": 9
+}
+2023/06/29 04:52:26 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 04:52:26 Duration: 1.355014ms
+2023/06/29 04:52:26 
+2023/06/29 04:52:26 [debian-server/vjeqgC8VNx-000005] "DELETE http://192.168.254.170:8082/deleteStudent HTTP/1.1" from 192.168.254.107:51041 - 200 32B in 1.399666ms
+2023/06/29 04:52:27 Request: DELETE /deleteStudent
+2023/06/29 04:52:27 Request Payload: {
+    "UserID": 9
+}
+2023/06/29 04:52:27 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 04:52:27 Duration: 637.263µs
+2023/06/29 04:52:27 
+2023/06/29 04:52:27 [debian-server/vjeqgC8VNx-000006] "DELETE http://192.168.254.170:8082/deleteStudent HTTP/1.1" from 192.168.254.107:51041 - 200 32B in 735.949µs
+2023/06/29 04:52:31 Request: GET /readStudent
+2023/06/29 04:52:31 Request Payload: {
+}
+2023/06/29 04:52:31 Request Response: 200 OK
+Payload: [{"Username":123,"Password":"YwVgxMcX","StudentNumber":123,"UserID":8,"Name":"Karl Angelo Navarro Lim","FirstName":"Karl Angelo","MiddleName":"Navarro","LastName":"Lim","Email":"karlangelolim19@gmail.com","DateOfBirth":"09/10/1997","GradeLevel":"Prep","Address":"123 test address","ContactNumber":"09164385846"}]
+2023/06/29 04:52:31 Duration: 5.391542ms
+2023/06/29 04:52:31 
+2023/06/29 04:52:31 [debian-server/vjeqgC8VNx-000007] "GET http://192.168.254.170:8082/readStudent HTTP/1.1" from 192.168.254.107:51041 - 200 312B in 5.545131ms
+2023/06/29 05:08:05 Request: PUT /changePassword
+2023/06/29 05:08:05 Request Payload: {
+    "Username":123,
+    "Password":"asdasdasd",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:08:05 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 05:08:05 Duration: 9.059287ms
+2023/06/29 05:08:05 
+2023/06/29 05:08:05 [debian-server/E1kQcPmnG7-000001] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51297 - 400 4B in 9.174421ms
+2023/06/29 05:08:36 Request: PUT /changePassword
+2023/06/29 05:08:36 Request Payload: {
+    "Username":123,
+    "Password":"asdasdasd",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:08:36 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 05:08:36 Duration: 640.086µs
+2023/06/29 05:08:36 
+2023/06/29 05:08:36 [debian-server/vU8uc4YfNA-000001] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51303 - 400 4B in 688.818µs
+2023/06/29 05:09:34 Request: PUT /changePassword
+2023/06/29 05:09:34 Request Payload: {
+    "Username":123,
+    "Password":"asdasdasd",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:09:34 Request Response: 400 Bad Request
+Payload: {"Successful":false,"Message":"Wrong password!"}
+2023/06/29 05:09:34 Duration: 880.414µs
+2023/06/29 05:09:34 
+2023/06/29 05:09:34 [debian-server/oSoujOFTma-000001] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51331 - 400 48B in 931.021µs
+2023/06/29 05:09:54 Request: PUT /changePassword
+2023/06/29 05:09:54 Request Payload: {
+    "Username":123,
+    "Password":"9fe95d9fc89e509dee4dfd3977bc4b92",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:09:54 Request Response: 400 Bad Request
+Payload: {"Successful":false,"Message":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE UserID= ?' at line 1"}
+2023/06/29 05:09:54 Duration: 1.212004ms
+2023/06/29 05:09:54 
+2023/06/29 05:09:54 [debian-server/oSoujOFTma-000002] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51331 - 400 216B in 1.258164ms
+2023/06/29 05:10:45 Request: PUT /changePassword
+2023/06/29 05:10:45 Request Payload: {
+    "Username":123,
+    "Password":"9fe95d9fc89e509dee4dfd3977bc4b92",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:10:45 Request Response: 400 Bad Request
+Payload: {"Successful":false,"Message":"Error 1054 (42S22): Unknown column 'UserID' in 'where clause'"}
+2023/06/29 05:10:45 Duration: 1.134341ms
+2023/06/29 05:10:45 
+2023/06/29 05:10:45 [debian-server/cEjzJgxyl3-000001] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51342 - 400 94B in 1.192736ms
+2023/06/29 05:11:04 Request: PUT /changePassword
+2023/06/29 05:11:04 Request Payload: {
+    "Username":123,
+    "Password":"9fe95d9fc89e509dee4dfd3977bc4b92",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:11:04 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 05:11:04 Duration: 1.77389ms
+2023/06/29 05:11:04 
+2023/06/29 05:11:04 [debian-server/bJcnf1guT2-000001] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51352 - 200 32B in 1.86272ms
+2023/06/29 05:11:53 Request: PUT /changePassword
+2023/06/29 05:11:53 Request Payload: {
+    "Username":123,
+    "Password":"9fe95d9fc89e509dee4dfd3977bc4b92",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:11:53 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 05:11:53 Duration: 850.526µs
+2023/06/29 05:11:53 
+2023/06/29 05:11:53 [debian-server/7zyDyZXegQ-000001] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51366 - 200 32B in 909.592µs
+2023/06/29 05:12:29 Request: PUT /changePassword
+2023/06/29 05:12:29 Request Payload: {
+    "Username":123,
+    "Password":"9fe95d9fc89e509dee4dfd3977bc4b92",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:12:29 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 05:12:29 Duration: 783.913µs
+2023/06/29 05:12:29 
+2023/06/29 05:12:29 [debian-server/7zyDyZXegQ-000002] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51366 - 200 32B in 833.194µs
+2023/06/29 05:13:59 Request: PUT /changePassword
+2023/06/29 05:13:59 Request Payload: {
+    "Username":123,
+    "Password":"9fe95d9fc89e509dee4dfd3977bc4b92",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:13:59 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 05:13:59 Duration: 1.160428ms
+2023/06/29 05:13:59 
+2023/06/29 05:13:59 [debian-server/5L0azq4YAp-000001] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51388 - 200 32B in 1.213884ms
+2023/06/29 05:16:03 Request: PUT /changePassword
+2023/06/29 05:16:03 Request Payload: {
+    "Username":123,
+    "Password":"9fe95d9fc89e509dee4dfd3977bc4b92",
+    "NewPassword":"testpassword",
+    "UserID":8
+
+}
+2023/06/29 05:16:03 Request Response: 200 OK
+Payload: {"Successful":true,"Message":""}
+2023/06/29 05:16:03 Duration: 7.077977ms
+2023/06/29 05:16:03 
+2023/06/29 05:16:03 [debian-server/KXoQhjg5K9-000001] "PUT http://192.168.254.170:8082/changePassword HTTP/1.1" from 192.168.254.107:51419 - 200 32B in 7.170482ms
+2023/06/29 05:29:21 Request: POST /loginStudent
+2023/06/29 05:29:21 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "082e7a4e13eeef245e5aa841894bc387",
+    "dateOfBirth": "09/10/1997"
+}
+2023/06/29 05:29:21 Request Response: 200 OK
+Payload: {"Authenticated":false,"UserType":"","UserID":0}
+2023/06/29 05:29:21 Duration: 992.305µs
+2023/06/29 05:29:21 
+2023/06/29 05:29:21 [debian-server/jpWAdubZGs-000001] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:51673 - 200 48B in 1.042443ms
+2023/06/29 05:29:38 Request: POST /loginStudent
+2023/06/29 05:29:38 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "e16b2ab8d12314bf4efbd6203906ea6c",
+    "dateOfBirth": "09/10/1997"
+}
+2023/06/29 05:29:38 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 05:29:38 Duration: 709.534µs
+2023/06/29 05:29:38 
+2023/06/29 05:29:38 [debian-server/jpWAdubZGs-000002] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:51673 - 400 4B in 770.205µs
+2023/06/29 05:31:37 Request: POST /loginStudent
+2023/06/29 05:31:37 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "e16b2ab8d12314bf4efbd6203906ea6c",
+    "dateOfBirth": "09/10/1997"
+}
+2023/06/29 05:31:37 Request Response: 200 OK
+Payload: {"Authenticated":true,"UserType":"Student","UserID":8}
+2023/06/29 05:31:37 Duration: 769.457µs
+2023/06/29 05:31:37 
+2023/06/29 05:31:37 [debian-server/JQEOxBIgMc-000001] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:51700 - 200 54B in 820.12µs
+2023/06/29 05:31:47 Request: POST /loginStudent
+2023/06/29 05:31:47 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "e16b2ab8d12314bf4efbd6203a906ea6c",
+    "dateOfBirth": "09/10/1997"
+}
+2023/06/29 05:31:47 Request Response: 200 OK
+Payload: {"Authenticated":false,"UserType":"","UserID":0}
+2023/06/29 05:31:47 Duration: 956.426µs
+2023/06/29 05:31:47 
+2023/06/29 05:31:47 [debian-server/JQEOxBIgMc-000002] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:51700 - 200 48B in 1.008324ms
+2023/06/29 05:31:50 Request: POST /loginStudent
+2023/06/29 05:31:50 Request Payload: {
+    "studentNumber" : "123",
+    "Password" : "e16b2ab8d12314bf4efbd6203906ea6c",
+    "dateOfBirth": "09/10/1997"
+}
+2023/06/29 05:31:50 Request Response: 200 OK
+Payload: {"Authenticated":true,"UserType":"Student","UserID":8}
+2023/06/29 05:31:50 Duration: 921.355µs
+2023/06/29 05:31:50 
+2023/06/29 05:31:50 [debian-server/JQEOxBIgMc-000003] "POST http://192.168.254.170:8082/loginStudent HTTP/1.1" from 192.168.254.107:51700 - 200 54B in 976.795µs
+2023/06/29 05:57:22 Request: OPTIONS /upload
+2023/06/29 05:57:22 Request Payload: [Empty]
+2023/06/29 05:57:22 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 05:57:22 Duration: 158.426µs
+2023/06/29 05:57:22 
+2023/06/29 05:57:22 [debian-server/CcZu08VInA-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52501 - 405 0B in 5.653178ms
+2023/06/29 05:58:08 Request: OPTIONS /upload
+2023/06/29 05:58:08 Request Payload: [Empty]
+2023/06/29 05:58:08 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 05:58:08 Duration: 4.466µs
+2023/06/29 05:58:08 
+2023/06/29 05:58:08 [debian-server/N2SWFkHqmS-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52525 - 405 0B in 62.831µs
+2023/06/29 05:58:16 Request: OPTIONS /upload
+2023/06/29 05:58:16 Request Payload: [Empty]
+2023/06/29 05:58:16 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 05:58:16 Duration: 3.479µs
+2023/06/29 05:58:16 
+2023/06/29 05:58:16 [debian-server/N2SWFkHqmS-000002] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52525 - 405 0B in 60.904µs
+2023/06/29 05:58:24 Request: OPTIONS /upload
+2023/06/29 05:58:24 Request Payload: [Empty]
+2023/06/29 05:58:24 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 05:58:24 Duration: 2.805µs
+2023/06/29 05:58:24 
+2023/06/29 05:58:24 [debian-server/N2SWFkHqmS-000003] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52525 - 405 0B in 49.517µs
+2023/06/29 05:58:47 Request: OPTIONS /upload
+2023/06/29 05:58:47 Request Payload: [Empty]
+2023/06/29 05:58:47 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 05:58:47 Duration: 3.183µs
+2023/06/29 05:58:47 
+2023/06/29 05:58:47 [debian-server/t7xKqKfy8W-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52546 - 405 0B in 76.249µs
+2023/06/29 05:59:38 Request: OPTIONS /upload
+2023/06/29 05:59:38 Request Payload: [Empty]
+2023/06/29 05:59:38 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 05:59:38 Duration: 3.437µs
+2023/06/29 05:59:38 
+2023/06/29 05:59:38 [debian-server/t7xKqKfy8W-000002] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52546 - 405 0B in 73.973µs
+2023/06/29 06:00:19 Request: OPTIONS /upload
+2023/06/29 06:00:19 Request Payload: [Empty]
+2023/06/29 06:00:19 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:00:19 Duration: 3.967µs
+2023/06/29 06:00:19 
+2023/06/29 06:00:19 [debian-server/t7xKqKfy8W-000003] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52546 - 405 0B in 61.751µs
+2023/06/29 06:00:43 Request: OPTIONS /upload
+2023/06/29 06:00:43 Request Payload: [Empty]
+2023/06/29 06:00:43 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:00:43 Duration: 3.126µs
+2023/06/29 06:00:43 
+2023/06/29 06:00:43 [debian-server/5c0EdLC872-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52656 - 405 0B in 58.41µs
+2023/06/29 06:01:16 Request: OPTIONS /upload
+2023/06/29 06:01:16 Request Payload: [Empty]
+2023/06/29 06:01:16 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:01:16 Duration: 3.553µs
+2023/06/29 06:01:16 
+2023/06/29 06:01:16 [debian-server/5c0EdLC872-000002] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52656 - 405 0B in 60.965µs
+2023/06/29 06:02:05 Request: OPTIONS /upload
+2023/06/29 06:02:05 Request Payload: [Empty]
+2023/06/29 06:02:05 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:02:05 Duration: 3.526µs
+2023/06/29 06:02:05 
+2023/06/29 06:02:05 [debian-server/5c0EdLC872-000003] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52765 - 405 0B in 55.43µs
+2023/06/29 06:03:06 Request: OPTIONS /upload
+2023/06/29 06:03:06 Request Payload: [Empty]
+2023/06/29 06:03:06 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:03:06 Duration: 3.922µs
+2023/06/29 06:03:06 
+2023/06/29 06:03:06 [debian-server/ha6LR91eco-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52810 - 405 0B in 59.908µs
+2023/06/29 06:04:07 Request: OPTIONS /upload
+2023/06/29 06:04:07 Request Payload: [Empty]
+2023/06/29 06:04:07 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:04:07 Duration: 2.879µs
+2023/06/29 06:04:07 
+2023/06/29 06:04:07 [debian-server/7u28xsIUDC-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52846 - 405 0B in 91.094µs
+2023/06/29 06:04:31 Request: OPTIONS /upload
+2023/06/29 06:04:31 Request Payload: [Empty]
+2023/06/29 06:04:31 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:04:31 Duration: 3.121µs
+2023/06/29 06:04:31 
+2023/06/29 06:04:31 [debian-server/CnpGE697ap-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52864 - 405 0B in 55.153µs
+2023/06/29 06:04:58 Request: OPTIONS /upload
+2023/06/29 06:04:58 Request Payload: [Empty]
+2023/06/29 06:04:58 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:04:58 Duration: 2.741µs
+2023/06/29 06:04:58 
+2023/06/29 06:04:58 [debian-server/1HlHR5mTR3-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52887 - 405 0B in 52.946µs
+2023/06/29 06:05:25 Request: OPTIONS /upload
+2023/06/29 06:05:25 Request Payload: [Empty]
+2023/06/29 06:05:25 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:05:25 Duration: 2.885µs
+2023/06/29 06:05:25 
+2023/06/29 06:05:25 [debian-server/1HlHR5mTR3-000002] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52887 - 405 0B in 54.826µs
+2023/06/29 06:06:12 Request: OPTIONS /upload
+2023/06/29 06:06:12 Request Payload: [Empty]
+2023/06/29 06:06:12 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:06:12 Duration: 4.487µs
+2023/06/29 06:06:12 
+2023/06/29 06:06:12 [debian-server/1HlHR5mTR3-000003] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52887 - 405 0B in 65.668µs
+2023/06/29 06:06:19 Request: OPTIONS /upload
+2023/06/29 06:06:19 Request Payload: [Empty]
+2023/06/29 06:06:19 Request Response: 405 Method Not Allowed
+Payload: [Empty]
+2023/06/29 06:06:19 Duration: 3.037µs
+2023/06/29 06:06:19 
+2023/06/29 06:06:19 [debian-server/0JaiuKmUe1-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52927 - 405 0B in 56.621µs
+2023/06/29 06:07:54 [debian-server/1lg3sX6jL1-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52971 - 200 0B in 4.319µs
+2023/06/29 06:07:54 Request: POST /upload
+2023/06/29 06:07:54 Request Payload: [Empty]
+2023/06/29 06:07:54 Request Response: 400 Bad Request
+Payload: json: cannot unmarshal number into Go struct field .UserID of type string
+
+2023/06/29 06:07:54 Duration: 20.325024ms
+2023/06/29 06:07:54 
+2023/06/29 06:07:54 [debian-server/1lg3sX6jL1-000002] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:52971 - 400 74B in 22.583605ms
+2023/06/29 06:08:54 [debian-server/tR8Ylj2yVD-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53003 - 200 0B in 4.103µs
+2023/06/29 06:08:54 Request: POST /upload
+2023/06/29 06:08:54 Request Payload: [Empty]
+2023/06/29 06:08:54 Request Response: 500 Internal Server Error
+Payload: illegal base64 data at input byte 4
+
+2023/06/29 06:08:54 Duration: 17.954781ms
+2023/06/29 06:08:54 
+2023/06/29 06:08:54 [debian-server/tR8Ylj2yVD-000002] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53003 - 500 36B in 18.289595ms
+2023/06/29 06:09:09 [debian-server/tR8Ylj2yVD-000003] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53003 - 200 0B in 3.834µs
+2023/06/29 06:09:09 Request: POST /upload
+2023/06/29 06:09:09 Request Payload: [Empty]
+2023/06/29 06:09:09 Request Response: 500 Internal Server Error
+Payload: illegal base64 data at input byte 4
+
+2023/06/29 06:09:09 Duration: 5.637149ms
+2023/06/29 06:09:09 
+2023/06/29 06:09:09 [debian-server/tR8Ylj2yVD-000004] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53003 - 500 36B in 5.702425ms
+2023/06/29 06:10:36 [debian-server/tR8Ylj2yVD-000005] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53003 - 200 0B in 3.864µs
+2023/06/29 06:10:36 Request: POST /upload
+2023/06/29 06:10:36 Request Payload: [Empty]
+2023/06/29 06:10:36 Request Response: 500 Internal Server Error
+Payload: illegal base64 data at input byte 4
+
+2023/06/29 06:10:36 Duration: 7.832494ms
+2023/06/29 06:10:36 
+2023/06/29 06:10:36 [debian-server/tR8Ylj2yVD-000006] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53003 - 500 36B in 10.474206ms
+2023/06/29 06:16:05 [debian-server/tR8Ylj2yVD-000007] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 200 0B in 5.382µs
+2023/06/29 06:16:05 Request: POST /upload
+2023/06/29 06:16:05 Request Payload: [Empty]
+2023/06/29 06:16:05 Request Response: 500 Internal Server Error
+Payload: illegal base64 data at input byte 4
+
+2023/06/29 06:16:05 Duration: 16.225552ms
+2023/06/29 06:16:05 
+2023/06/29 06:16:05 [debian-server/tR8Ylj2yVD-000008] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 500 36B in 16.476047ms
+2023/06/29 06:16:17 [debian-server/tR8Ylj2yVD-000009] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 200 0B in 3.743µs
+2023/06/29 06:16:17 Request: POST /upload
+2023/06/29 06:16:17 Request Payload: [Empty]
+2023/06/29 06:16:17 Request Response: 500 Internal Server Error
+Payload: illegal base64 data at input byte 4
+
+2023/06/29 06:16:17 Duration: 3.30969ms
+2023/06/29 06:16:17 
+2023/06/29 06:16:17 [debian-server/tR8Ylj2yVD-000010] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 500 36B in 10.255049ms
+2023/06/29 06:19:36 [debian-server/tR8Ylj2yVD-000011] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 200 0B in 4.839µs
+2023/06/29 06:19:36 Request: POST /upload
+2023/06/29 06:19:36 Request Payload: [Empty]
+2023/06/29 06:19:36 Request Response: 400 Bad Request
+Payload: json: cannot unmarshal object into Go struct field .file of type string
+
+2023/06/29 06:19:36 Duration: 35.566µs
+2023/06/29 06:19:36 
+2023/06/29 06:19:36 [debian-server/tR8Ylj2yVD-000012] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 400 72B in 84.423µs
+2023/06/29 06:20:51 [debian-server/tR8Ylj2yVD-000013] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 200 0B in 4.41µs
+2023/06/29 06:20:51 Request: POST /upload
+2023/06/29 06:20:51 Request Payload: [Empty]
+2023/06/29 06:20:51 Request Response: 500 Internal Server Error
+Payload: illegal base64 data at input byte 4
+
+2023/06/29 06:20:51 Duration: 3.519502ms
+2023/06/29 06:20:51 
+2023/06/29 06:20:51 [debian-server/tR8Ylj2yVD-000014] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 500 36B in 3.800576ms
+2023/06/29 06:21:17 [debian-server/tR8Ylj2yVD-000015] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 200 0B in 3.879µs
+2023/06/29 06:21:17 Request: POST /upload
+2023/06/29 06:21:17 Request Payload: [Empty]
+2023/06/29 06:21:17 Request Response: 400 Bad Request
+Payload: json: cannot unmarshal object into Go struct field .file of type string
+
+2023/06/29 06:21:17 Duration: 30.681µs
+2023/06/29 06:21:17 
+2023/06/29 06:21:17 [debian-server/tR8Ylj2yVD-000016] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53231 - 400 72B in 82.518µs
+2023/06/29 06:22:54 [debian-server/d90kPQnBWb-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53499 - 200 0B in 4.16µs
+2023/06/29 06:22:54 Request: POST /upload
+2023/06/29 06:22:54 Request Payload: [Empty]
+2023/06/29 06:22:54 Request Response: 400 Bad Request
+Payload: json: cannot unmarshal object into Go struct field .file of type []uint8
+
+2023/06/29 06:22:54 Duration: 118.855µs
+2023/06/29 06:22:54 
+2023/06/29 06:22:54 [debian-server/d90kPQnBWb-000002] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53499 - 400 73B in 175.518µs
+2023/06/29 06:24:01 [debian-server/XrnbxUQXCS-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53532 - 200 0B in 3.843µs
+2023/06/29 06:24:01 Request: POST /upload
+2023/06/29 06:24:01 Request Payload: [Empty]
+2023/06/29 06:24:01 Request Response: 400 Bad Request
+Payload: json: cannot unmarshal object into Go struct field .file of type string
+
+2023/06/29 06:24:01 Duration: 154.6µs
+2023/06/29 06:24:01 
+2023/06/29 06:24:01 [debian-server/XrnbxUQXCS-000002] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53532 - 400 72B in 235.476µs
+2023/06/29 06:25:12 [debian-server/OkVbs3oa6F-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53564 - 200 0B in 4.161µs
+2023/06/29 06:25:12 Request: POST /upload
+2023/06/29 06:25:12 Request Payload: {"file":{},"requirementType":"Form 137","fileName":"Arduino-Mega-Pinout.jpg","UserID":8}
+2023/06/29 06:25:12 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 06:25:12 Duration: 87.658µs
+2023/06/29 06:25:12 
+2023/06/29 06:25:12 [debian-server/OkVbs3oa6F-000002] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53564 - 400 4B in 136.42µs
+2023/06/29 06:26:26 [debian-server/oyeynEVLrV-000001] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53599 - 200 0B in 3.868µs
+2023/06/29 06:26:26 Request: POST /upload
+2023/06/29 06:26:26 Request Payload: {"file":{},"requirementType":"Form 137","fileName":"Arduino-Mega-Pinout.jpg","UserID":8}
+2023/06/29 06:26:26 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 06:26:26 Duration: 89.166µs
+2023/06/29 06:26:26 
+2023/06/29 06:26:26 [debian-server/oyeynEVLrV-000002] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53599 - 400 4B in 136.948µs
+2023/06/29 06:26:36 [debian-server/oyeynEVLrV-000003] "OPTIONS http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53599 - 200 0B in 3.234µs
+2023/06/29 06:26:36 Request: POST /upload
+2023/06/29 06:26:36 Request Payload: {"file":{},"requirementType":"Form 137","fileName":"Arduino-Mega-Pinout.jpg","UserID":8}
+2023/06/29 06:26:36 Request Response: 400 Bad Request
+Payload: null
+2023/06/29 06:26:36 Duration: 88.455µs
+2023/06/29 06:26:36 
+2023/06/29 06:26:36 [debian-server/oyeynEVLrV-000004] "POST http://192.168.254.170:8082/upload HTTP/1.1" from 192.168.254.107:53599 - 400 4B in 154.029µs

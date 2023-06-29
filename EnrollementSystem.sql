@@ -3,31 +3,36 @@ CREATE DATABASE TGSCA;
 USE TGSCA;
 
 CREATE TABLE `Users` (
-  `ID` integer PRIMARY KEY,
+  `ID` int PRIMARY KEY AUTO_INCREMENT,
   `Username` varchar(255),
   `Password` varchar(255),
-  `IsAdmin` bool
+  `IsAdmin` bool,
+  `PlainPassword` varchar(255)
 );
 
 CREATE TABLE `Students` (
-  `ID` integer PRIMARY KEY,
+  `ID` int PRIMARY KEY AUTO_INCREMENT,
   `StudentNumber` integer,
   `UserID` integer,
+  `FirstName` varchar(255),
+  `LastName` varchar(255),
+  `MiddleName` varchar(255),
   `Email` varchar(255),
   `DateOfBirth` varchar(255),
   `GradeLevel` varchar(255),
-  `ContactNumber` varchar(255)
+  `ContactNumber` varchar(255),
+  `Address` varchar(255)
 );
 
 CREATE TABLE `Requirements` (
-  `ID` integer PRIMARY KEY,
+  `ID` int PRIMARY KEY AUTO_INCREMENT,
   `StudentNumber` integer,
   `UploadedFile` longtext,
   `RequirementType` varchar(255)
 );
 
 CREATE TABLE `Subjects` (
-  `ID` integer PRIMARY KEY,
+  `ID` int PRIMARY KEY AUTO_INCREMENT,
   `Subject` varchar(255),
   `GradeLevel` varchar(255),
   `Schedule` varchar(255),
@@ -35,13 +40,13 @@ CREATE TABLE `Subjects` (
 );
 
 CREATE TABLE `Enrolled` (
-  `ID` integer PRIMARY KEY,
+  `ID` int PRIMARY KEY AUTO_INCREMENT,
   `StudentNumber` integer,
   `SubjectID` integer
 );
 
 CREATE TABLE `Enrollment` (
-  `ID` integer PRIMARY KEY,
+  `ID` int PRIMARY KEY AUTO_INCREMENT,
   `StudentNumber` integer,
   `ProgressCard` longtext,
   `ProgressCardStatus` varchar(255),
@@ -54,7 +59,7 @@ CREATE TABLE `Enrollment` (
 );
 
 CREATE TABLE `Appointments` (
-  `ID` integer PRIMARY KEY,
+  `ID` int PRIMARY KEY AUTO_INCREMENT,
   `Name` varchar(255),
   `Email` varchar(255),
   `ContactNumber` varchar(255),
@@ -64,6 +69,6 @@ CREATE TABLE `Appointments` (
 );
 
 CREATE TABLE `Teachers` (
-  `ID` integer PRIMARY KEY,
+  `ID` int PRIMARY KEY AUTO_INCREMENT,
   `TeacherName` varchar(255)
 );
