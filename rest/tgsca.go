@@ -75,11 +75,19 @@ func Routes() {
 	r.Put("/updateStudent", newTsgsa.UpdateStudent)
 	r.Delete("/deleteStudent", newTsgsa.DeleteStudent)
 
-	// File Upload route
+	//CRUD requirements
+	// File Upload route CREATE requirement
 	r.Post("/upload", newTsgsa.UploadRequirements)
-
-	// File Serving route
+	// File Serving route View requirement
 	r.Get("/files/{userID}/{filename}", newTsgsa.ServeFile)
+	r.Get("/readRequirements", newTsgsa.ReadRequirements)
+	r.Delete("/deleteRequirements", newTsgsa.DeleteRequirement)
+
+	// CRUD Teachers routes
+	r.Post("/createTeacher", newTsgsa.CreateTeachers)
+	r.Get("/readTeacher", newTsgsa.ReadTeachers)
+	r.Put("/updateTeacher", newTsgsa.UpdateTeachers)
+	r.Delete("/deleteTeacher", newTsgsa.DeleteTeachers)
 
 	log.Fatal(http.ListenAndServe("0.0.0.0:8082", r))
 }
