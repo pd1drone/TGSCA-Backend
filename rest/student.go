@@ -260,7 +260,7 @@ func (t *TGSCAConfiguration) DeleteStudent(w http.ResponseWriter, r *http.Reques
 
 	fmt.Println(req)
 
-	response := &UpdateStudentResponse{}
+	response := &DeleteStudentResponse{}
 
 	err = database.DeleteStudent(t.TGSCAdb, req.UserID)
 	if err != nil {

@@ -36,7 +36,7 @@ CREATE TABLE `Subjects` (
   `Subject` varchar(255),
   `GradeLevel` varchar(255),
   `Schedule` varchar(255),
-  `Teacher` varchar(255)
+  `TeachersID` integer
 );
 
 CREATE TABLE `Enrolled` (
@@ -44,6 +44,12 @@ CREATE TABLE `Enrolled` (
   `StudentNumber` integer,
   `SubjectID` integer
 );
+
+CREATE TABLE `EnrolledPending`(
+  `ID` int PRIMARY KEY AUTO_INCREMENT,
+  `StudentNumber` integer,
+  `SubjectID` integer
+)
 
 CREATE TABLE `Enrollment` (
   `ID` int PRIMARY KEY AUTO_INCREMENT,
@@ -55,7 +61,8 @@ CREATE TABLE `Enrollment` (
   `GoodMoral` longtext,
   `GoodMoralStatus` varchar(255),
   `RegistrationFee` longtext,
-  `RegistrationFeeStatus` varchar(255)
+  `RegistrationFeeStatus` varchar(255),
+  `EnrollmentStatus` varchar(255)
 );
 
 CREATE TABLE `Appointments` (
@@ -65,7 +72,8 @@ CREATE TABLE `Appointments` (
   `ContactNumber` varchar(255),
   `StudentNumber` integer,
   `AppointmentType` varchar(255),
-  `AppointmentDescription` longtext
+  `AppointmentDescription` longtext,
+  `AppointmentDate` varchar(255)
 );
 
 CREATE TABLE `Teachers` (

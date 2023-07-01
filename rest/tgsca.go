@@ -89,6 +89,30 @@ func Routes() {
 	r.Put("/updateTeacher", newTsgsa.UpdateTeachers)
 	r.Delete("/deleteTeacher", newTsgsa.DeleteTeachers)
 
+	//Create READ Appointments
+	r.Post("/createAppointment", newTsgsa.CreateAppointment)
+	r.Get("/readAppointment", newTsgsa.ReadAppointment)
+
+	//CRUD Subjects
+	r.Post("/createSubject", newTsgsa.CreateSubject)
+	r.Get("/readSubject", newTsgsa.ReadSubject)
+	r.Get("/readSubjectStudent", newTsgsa.ReadSubjectForStudent)
+	r.Get("/readSubjectGradeLevel", newTsgsa.ReadSubjectGradeLevel)
+	r.Put("/updateSubject", newTsgsa.UpdateSubject)
+	r.Delete("/deleteSubject", newTsgsa.DeleteSubject)
+
+	// CRUD ENROLLED ADMIN
+	r.Post("/createEnrolled", newTsgsa.CreateEnrolled)
+	r.Get("/readEnrolled", newTsgsa.ReadEnrolled)
+	r.Put("/updateEnrolled", newTsgsa.UpdateEnrolled)
+	r.Delete("/deleteEnrolled", newTsgsa.DeleteEnrolled)
+
+	// CRUD ENROLLMENT STUDENT
+	r.Post("/createEnrolledStudent", newTsgsa.CreateEnrolledForStudent)
+	r.Get("/readEnrolledStudent", newTsgsa.ReadEnrolledForStudent)
+	r.Put("/updateEnrolledStudent", newTsgsa.UpdateEnrolledForStudent)
+	r.Delete("/deleteEnrolledStudent", newTsgsa.DeleteEnrolledForStudent)
+
 	log.Fatal(http.ListenAndServe("0.0.0.0:8082", r))
 }
 
