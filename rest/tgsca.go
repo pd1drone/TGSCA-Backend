@@ -71,8 +71,8 @@ func Routes() {
 
 	// CRUD Student routes
 	r.Post("/createStudent", newTsgsa.CreateStudent)
-	r.Get("/readStudent", newTsgsa.ReadStudent)
-	r.Put("/updateStudent", newTsgsa.UpdateStudent)
+	r.Post("/readStudent", newTsgsa.ReadStudent)
+	r.Post("/updateStudent", newTsgsa.UpdateStudent)
 	r.Delete("/deleteStudent", newTsgsa.DeleteStudent)
 
 	//CRUD requirements
@@ -80,7 +80,7 @@ func Routes() {
 	r.Post("/upload", newTsgsa.UploadRequirements)
 	// File Serving route View requirement
 	r.Get("/files/{userID}/{filename}", newTsgsa.ServeFile)
-	r.Get("/readRequirements", newTsgsa.ReadRequirements)
+	r.Post("/readRequirements", newTsgsa.ReadRequirements)
 	r.Delete("/deleteRequirements", newTsgsa.DeleteRequirement)
 
 	// CRUD Teachers routes

@@ -191,11 +191,13 @@ func ReadStudent(db sqlx.Ext, studentNumber int) ([]*ReadStudentResponse, error)
 func UpdateStudent(db sqlx.Ext, studentID int64, userID int64, firstname string, lastname string, middlename string, email string, dateofbirth string, gradelevel string, contactnum string, address string) error {
 
 	if studentID != 0 {
+		fmt.Println(studentID)
+		fmt.Println(userID)
 
 		// check if studentNumber exists
 		var Count int64
 		Exists := false
-		rows, err := db.Queryx(`SELECT COUNT(Username) FROM Users WHERE Username = ?`, studentID)
+		rows, err := db.Queryx(`SELECT COUNT(Username) FROM Users WHERE Username = ? AND ID != ?`, studentID, userID)
 		if err != nil {
 			return err
 		}

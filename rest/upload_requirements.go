@@ -6,11 +6,15 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"log"
 	"mime"
+	"net"
 	"net/http"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strconv"
+	"strings"
 	"tgsca/database"
 
 	"github.com/go-chi/chi"
@@ -90,7 +94,11 @@ func (t *TGSCAConfiguration) UploadRequirements(w http.ResponseWriter, r *http.R
 		return
 	}
 
-	err = database.CreateRequirements(t.TGSCAdb, filePath, int64(intUserID), requirementType)
+	ipaddr := GetOutboundIP()
+
+	link := fmt.Sprintf("http://" + ipaddr.String() + ":8082/files/" + UserID + "/" + handler.Filename)
+
+	err = database.CreateRequirements(t.TGSCAdb, link, int64(intUserID), requirementType)
 	if err != nil {
 		w.Write([]byte("Error in uploading file!"))
 		respondJSON(w, 500, nil)
@@ -182,23 +190,13 @@ func (t *TGSCAConfiguration) ReadRequirements(w http.ResponseWriter, r *http.Req
 		return
 	}
 
+	fmt.Println(req.UserID)
+
 	response := make([]*ReadRequirementsResponse, 0)
 
 	dbResponse, err := database.ReadRequirements(t.TGSCAdb, req.UserID)
 	if err != nil {
 		respondJSON(w, 400, nil)
-		return
-	}
-
-	if req.UserID != 0 {
-		singleResponse := &ReadRequirementsResponse{
-			ID:              dbResponse[0].ID,
-			StudentNumber:   dbResponse[0].StudentNumber,
-			UploadedFile:    dbResponse[0].UploadedFile,
-			RequirementType: dbResponse[0].RequirementType,
-		}
-
-		respondJSON(w, 200, singleResponse)
 		return
 	}
 
@@ -243,7 +241,9 @@ func (t *TGSCAConfiguration) DeleteRequirement(w http.ResponseWriter, r *http.Re
 
 	response := &DeleteRequirementsResponse{}
 
-	err = deleteFileIfExists(req.UploadedFile)
+	_, _, path, _ := splitURL(req.UploadedFile)
+
+	err = deleteFileIfExists("/root/TGSCA-Backend/" + path)
 	if err != nil {
 		respondJSON(w, 500, nil)
 		return
@@ -277,4 +277,31 @@ func deleteFileIfExists(filePath string) error {
 
 	fmt.Println("File deleted successfully:", filePath)
 	return nil
+}
+
+// Get preferred outbound ip of this machine
+func GetOutboundIP() net.IP {
+	conn, err := net.Dial("udp", "8.8.8.8:80")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer conn.Close()
+
+	localAddr := conn.LocalAddr().(*net.UDPAddr)
+
+	return localAddr.IP
+}
+
+func splitURL(urlString string) (string, string, string, string) {
+	u, err := url.Parse(urlString)
+	if err != nil {
+		panic(err)
+	}
+
+	scheme := u.Scheme
+	host := u.Host
+	path := u.Path
+	fileName := path[strings.LastIndex(path, "/")+1:]
+
+	return scheme, host, path, fileName
 }

@@ -137,8 +137,12 @@ func (t *TGSCAConfiguration) ReadStudent(w http.ResponseWriter, r *http.Request)
 
 	req := &ReadStudentRequest{}
 
+	fmt.Println(string(body))
+
 	err = json.Unmarshal(body, &req)
 	if err != nil {
+		fmt.Println(err)
+		fmt.Println("ERROR")
 		respondJSON(w, 400, nil)
 		return
 	}
@@ -147,6 +151,7 @@ func (t *TGSCAConfiguration) ReadStudent(w http.ResponseWriter, r *http.Request)
 
 	dbResponse, err := database.ReadStudent(t.TGSCAdb, req.StudentNumber)
 	if err != nil {
+		fmt.Println(err)
 		respondJSON(w, 400, nil)
 		return
 	}
