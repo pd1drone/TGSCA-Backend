@@ -8,6 +8,7 @@ type Subject struct {
 	GradeLevel  string `json:"GradeLevel"`
 	Schedule    string `json:"Schedule"`
 	TeacherName string `json:"TeacherName"`
+	TeachersID  int64  `json:"TeachersID"`
 }
 
 func CreateSubject(db sqlx.Ext, subject string, gradelevel string, schedule string, teachersID int64) error {
@@ -65,6 +66,7 @@ func ReadSubject(db sqlx.Ext) ([]*Subject, error) {
 			GradeLevel:  gradelevel,
 			Schedule:    sched,
 			TeacherName: teacherName,
+			TeachersID:  teachersID,
 		})
 	}
 

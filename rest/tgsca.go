@@ -85,20 +85,20 @@ func Routes() {
 
 	// CRUD Teachers routes
 	r.Post("/createTeacher", newTsgsa.CreateTeachers)
-	r.Get("/readTeacher", newTsgsa.ReadTeachers)
-	r.Put("/updateTeacher", newTsgsa.UpdateTeachers)
+	r.Post("/readTeacher", newTsgsa.ReadTeachers)
+	r.Post("/updateTeacher", newTsgsa.UpdateTeachers)
 	r.Delete("/deleteTeacher", newTsgsa.DeleteTeachers)
 
 	//Create READ Appointments
 	r.Post("/createAppointment", newTsgsa.CreateAppointment)
-	r.Get("/readAppointment", newTsgsa.ReadAppointment)
+	r.Post("/readAppointment", newTsgsa.ReadAppointment)
 
 	//CRUD Subjects
 	r.Post("/createSubject", newTsgsa.CreateSubject)
-	r.Get("/readSubject", newTsgsa.ReadSubject)
-	r.Get("/readSubjectStudent", newTsgsa.ReadSubjectForStudent)
-	r.Get("/readSubjectGradeLevel", newTsgsa.ReadSubjectGradeLevel)
-	r.Put("/updateSubject", newTsgsa.UpdateSubject)
+	r.Post("/readSubject", newTsgsa.ReadSubject)
+	r.Post("/readSubjectStudent", newTsgsa.ReadSubjectForStudent)
+	r.Post("/readSubjectGradeLevel", newTsgsa.ReadSubjectGradeLevel)
+	r.Post("/updateSubject", newTsgsa.UpdateSubject)
 	r.Delete("/deleteSubject", newTsgsa.DeleteSubject)
 
 	// CRUD ENROLLED ADMIN
