@@ -103,7 +103,21 @@ func CreateStudent(db sqlx.Ext, StudentNumber int, FirstName string, LastName st
 	return nil
 }
 
-func ReadStudent(db sqlx.Ext, studentNumber int) ([]*ReadStudentResponse, error) {
+func ReadStudent(db sqlx.Ext, iduser int) ([]*ReadStudentResponse, error) {
+
+	var studentNumber int64
+	rows, err := db.Queryx(`SELECT Username FROM Users WHERE ID = ?`, iduser)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		err = rows.Scan(&studentNumber)
+		if err != nil {
+			return nil, err
+		}
+	}
 
 	var username int64
 	var password string
@@ -120,7 +134,8 @@ func ReadStudent(db sqlx.Ext, studentNumber int) ([]*ReadStudentResponse, error)
 
 	readStdntResponse := make([]*ReadStudentResponse, 0)
 
-	if studentNumber == 0 {
+	fmt.Println(iduser)
+	if iduser == 0 {
 
 		rows, err := db.Queryx(`SELECT u.Username, u.PlainPassword, s.StudentNumber, s.UserID, s.FirstName, s.LastName, s.MiddleName, s.Email, s.DateOfBirth, s.GradeLevel, s.ContactNumber,s.Address FROM Users as u
 	JOIN Students as s
@@ -150,12 +165,10 @@ func ReadStudent(db sqlx.Ext, studentNumber int) ([]*ReadStudentResponse, error)
 				ContactNumber: contactnum,
 			})
 		}
-
 		return readStdntResponse, nil
-
 	}
 
-	rows, err := db.Queryx(`SELECT u.Username, u.Password, s.StudentNumber, s.UserID, s.FirstName, s.LastName, s.MiddleName, s.Email, s.DateOfBirth, s.GradeLevel, s.ContactNumber,s.Address FROM Users as u
+	rows, err = db.Queryx(`SELECT u.Username, u.Password, s.StudentNumber, s.UserID, s.FirstName, s.LastName, s.MiddleName, s.Email, s.DateOfBirth, s.GradeLevel, s.ContactNumber,s.Address FROM Users as u
 	JOIN Students as s
 	ON s.UserID = u.ID
 	WHERE u.Username = ?`, studentNumber)

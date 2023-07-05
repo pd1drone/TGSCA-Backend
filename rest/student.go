@@ -28,7 +28,8 @@ type CreateStudentResponse struct {
 }
 
 type ReadStudentRequest struct {
-	StudentNumber int `json:"StudentNumber"`
+	StudentNumber int   `json:"StudentNumber"`
+	UserID        int64 `json:"UserID"`
 }
 type ReadStudentResponse struct {
 	Username      int    `json:"Username,omitempty"`
@@ -149,14 +150,14 @@ func (t *TGSCAConfiguration) ReadStudent(w http.ResponseWriter, r *http.Request)
 
 	response := make([]*ReadStudentResponse, 0)
 
-	dbResponse, err := database.ReadStudent(t.TGSCAdb, req.StudentNumber)
+	dbResponse, err := database.ReadStudent(t.TGSCAdb, int(req.UserID))
 	if err != nil {
 		fmt.Println(err)
 		respondJSON(w, 400, nil)
 		return
 	}
 
-	if req.StudentNumber != 0 {
+	if req.UserID != 0 {
 		singleResponse := &ReadStudentResponse{
 			StudentNumber: int(dbResponse[0].StudentNumber),
 			UserID:        dbResponse[0].UserID,
