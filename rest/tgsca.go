@@ -67,7 +67,7 @@ func Routes() {
 	r.Post("/loginStudent", newTsgsa.LoginStudent)
 
 	// Change Password route
-	r.Put("/changePassword", newTsgsa.ChangePassword)
+	r.Post("/changePassword", newTsgsa.ChangePassword)
 
 	// CRUD Student routes
 	r.Post("/createStudent", newTsgsa.CreateStudent)
