@@ -97,20 +97,22 @@ func Routes() {
 	r.Post("/createSubject", newTsgsa.CreateSubject)
 	r.Post("/readSubject", newTsgsa.ReadSubject)
 	r.Post("/readSubjectStudent", newTsgsa.ReadSubjectForStudent)
+	r.Post("/readSubjectSchedule", newTsgsa.ReadSubjectSchedule)
+	r.Post("/readSubjectStudentDropdown", newTsgsa.ReadSubjectForStudentDropDown)
 	r.Post("/readSubjectGradeLevel", newTsgsa.ReadSubjectGradeLevel)
 	r.Post("/updateSubject", newTsgsa.UpdateSubject)
 	r.Delete("/deleteSubject", newTsgsa.DeleteSubject)
 
 	// CRUD ENROLLED ADMIN
 	r.Post("/createEnrolled", newTsgsa.CreateEnrolled)
-	r.Get("/readEnrolled", newTsgsa.ReadEnrolled)
-	r.Put("/updateEnrolled", newTsgsa.UpdateEnrolled)
+	r.Post("/readEnrolled", newTsgsa.ReadEnrolled)
+	r.Post("/updateEnrolled", newTsgsa.UpdateEnrolled)
 	r.Delete("/deleteEnrolled", newTsgsa.DeleteEnrolled)
 
 	// CRUD ENROLLMENT STUDENT
 	r.Post("/createEnrolledStudent", newTsgsa.CreateEnrolledForStudent)
-	r.Get("/readEnrolledStudent", newTsgsa.ReadEnrolledForStudent)
-	r.Put("/updateEnrolledStudent", newTsgsa.UpdateEnrolledForStudent)
+	r.Post("/readEnrolledStudent", newTsgsa.ReadEnrolledForStudent)
+	r.Post("/updateEnrolledStudent", newTsgsa.UpdateEnrolledForStudent)
 	r.Delete("/deleteEnrolledStudent", newTsgsa.DeleteEnrolledForStudent)
 
 	log.Fatal(http.ListenAndServe("0.0.0.0:8082", r))

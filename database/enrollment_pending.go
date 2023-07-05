@@ -16,16 +16,32 @@ type ReadEnrolledPendingResponse struct {
 	Subject       string `json:"Subject"`
 	Schedule      string `json:"Schedule"`
 	TeacherName   string `json:"TeacherName"`
+	SubjectID     int64  `json:"SubjectID"`
 }
 
 func CreateEnrolledPending(db sqlx.Ext, studentNumber int64, SubjectID int64) error {
 
-	_, err := db.Exec(`INSERT INTO EnrolledPending (
+	var studentnum int64
+
+	rows, err := db.Queryx(`SELECT Username FROM Users WHERE ID = ?`, studentNumber)
+	if err != nil {
+		return err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		err = rows.Scan(&studentnum)
+		if err != nil {
+			return err
+		}
+	}
+
+	_, err = db.Exec(`INSERT INTO EnrolledPending (
 		StudentNumber,
 		SubjectID
 	)
 	Values(?,?)`,
-		studentNumber,
+		studentnum,
 		SubjectID,
 	)
 
@@ -93,6 +109,7 @@ func ReadEnrolledPending(db sqlx.Ext, userID int64) ([]*ReadEnrolledPendingRespo
 			Subject:       enrolleeDetails.Subject,
 			Schedule:      enrolleeDetails.Schedule,
 			TeacherName:   enrolleeDetails.TeacherName,
+			SubjectID:     enrollee.SubjectID,
 		})
 	}
 
@@ -165,8 +182,23 @@ func DeleteEnrolledPending(db sqlx.Ext, enrolledID int64) error {
 
 func UpdateEnrolledPending(db sqlx.Ext, id int64, studentnumber int64, subjectID int64) error {
 
-	_, err := db.Exec(`UPDATE EnrolledPending SET StudentNumber= ?,SubjectID= ? WHERE ID= ?`,
-		studentnumber,
+	var studentnum int64
+
+	rows, err := db.Queryx(`SELECT Username FROM Users WHERE ID = ?`, studentnumber)
+	if err != nil {
+		return err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		err = rows.Scan(&studentnum)
+		if err != nil {
+			return err
+		}
+	}
+
+	_, err = db.Exec(`UPDATE EnrolledPending SET StudentNumber= ?,SubjectID= ? WHERE ID= ?`,
+		studentnum,
 		subjectID,
 		id,
 	)

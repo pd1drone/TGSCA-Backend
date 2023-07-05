@@ -23,7 +23,8 @@ type CreateSubjectResponse struct {
 }
 
 type ReadSubjectForStudentRequest struct {
-	UserID int64 `json:"UserID"`
+	UserID  int64  `json:"UserID"`
+	Subject string `json:"Subject"`
 }
 
 type DeleteSubjectRequest struct {
@@ -135,6 +136,68 @@ func (t *TGSCAConfiguration) ReadSubjectForStudent(w http.ResponseWriter, r *htt
 	}
 
 	dbResponse, err := database.ReadSubjectForStudent(t.TGSCAdb, req.UserID)
+	if err != nil {
+		respondJSON(w, 400, nil)
+		return
+	}
+
+	respondJSON(w, 200, dbResponse)
+}
+
+func (t *TGSCAConfiguration) ReadSubjectSchedule(w http.ResponseWriter, r *http.Request) {
+
+	w.Header().Add("Access-Control-Allow-Origin", "*")
+	w.Header().Add("Access-Control-Allow-Methods", "*")
+	w.Header().Add("Access-Control-Allow-Headers", "*")
+
+	body, err := ioutil.ReadAll(r.Body)
+	if err != nil {
+		respondJSON(w, 500, nil)
+		return
+	}
+	// Restore request body after reading
+	r.Body = io.NopCloser(bytes.NewBuffer(body))
+
+	req := &ReadSubjectForStudentRequest{}
+
+	err = json.Unmarshal(body, &req)
+	if err != nil {
+		respondJSON(w, 400, nil)
+		return
+	}
+
+	dbResponse, err := database.ReadSubjectSchedule(t.TGSCAdb, req.UserID, req.Subject)
+	if err != nil {
+		respondJSON(w, 400, nil)
+		return
+	}
+
+	respondJSON(w, 200, dbResponse)
+}
+
+func (t *TGSCAConfiguration) ReadSubjectForStudentDropDown(w http.ResponseWriter, r *http.Request) {
+
+	w.Header().Add("Access-Control-Allow-Origin", "*")
+	w.Header().Add("Access-Control-Allow-Methods", "*")
+	w.Header().Add("Access-Control-Allow-Headers", "*")
+
+	body, err := ioutil.ReadAll(r.Body)
+	if err != nil {
+		respondJSON(w, 500, nil)
+		return
+	}
+	// Restore request body after reading
+	r.Body = io.NopCloser(bytes.NewBuffer(body))
+
+	req := &ReadSubjectForStudentRequest{}
+
+	err = json.Unmarshal(body, &req)
+	if err != nil {
+		respondJSON(w, 400, nil)
+		return
+	}
+
+	dbResponse, err := database.ReadSubjectForStudentDropDown(t.TGSCAdb, req.UserID)
 	if err != nil {
 		respondJSON(w, 400, nil)
 		return

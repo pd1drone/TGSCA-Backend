@@ -18,6 +18,7 @@ type ReadEnrolledResponse struct {
 	Subject       string `json:"Subject"`
 	Schedule      string `json:"Schedule"`
 	TeacherName   string `json:"TeacherName"`
+	SubjectID     int64  `json:"SubjectID"`
 }
 
 func CreateEnrolled(db sqlx.Ext, studentNumber int64, SubjectID int64) error {
@@ -80,6 +81,7 @@ func ReadEnrolled(db sqlx.Ext) ([]*ReadEnrolledResponse, error) {
 			Subject:       enrolleeDetails.Subject,
 			Schedule:      enrolleeDetails.Schedule,
 			TeacherName:   enrolleeDetails.TeacherName,
+			SubjectID:     enrollee.SubjectID,
 		})
 	}
 

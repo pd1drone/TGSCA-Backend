@@ -117,6 +117,82 @@ func ReadSubjectForStudent(db sqlx.Ext, userID int64) ([]*Subject, error) {
 	return SubjectsArray, nil
 }
 
+func ReadSubjectForStudentDropDown(db sqlx.Ext, userID int64) ([]*Subject, error) {
+
+	var subject string
+
+	SubjectsArray := make([]*Subject, 0)
+
+	GradeLVL, err := GetStudentGradeLevel(db, userID)
+	if err != nil {
+		return nil, err
+	}
+
+	rows, err := db.Queryx(`SELECT DISTINCT Subject FROM Subjects WHERE GradeLevel= ?`, GradeLVL)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		err = rows.Scan(&subject)
+		if err != nil {
+			return nil, err
+		}
+
+		SubjectsArray = append(SubjectsArray, &Subject{
+			Subject: subject,
+		})
+	}
+
+	return SubjectsArray, nil
+}
+
+func ReadSubjectSchedule(db sqlx.Ext, userID int64, sbj string) ([]*Subject, error) {
+
+	var id int64
+	var subject string
+	var gradelevel string
+	var sched string
+	var teachersID int64
+
+	SubjectsArray := make([]*Subject, 0)
+
+	GradeLVL, err := GetStudentGradeLevel(db, userID)
+	if err != nil {
+		return nil, err
+	}
+
+	rows, err := db.Queryx(`SELECT ID,Subject,GradeLevel,Schedule,TeachersID FROM Subjects WHERE GradeLevel= ? AND Subject= ?`, GradeLVL, sbj)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		err = rows.Scan(&id, &subject, &gradelevel, &sched, &teachersID)
+		if err != nil {
+			return nil, err
+		}
+
+		teacherName, err := GetTeachersName(db, teachersID)
+		if err != nil {
+			return nil, err
+		}
+
+		SubjectsArray = append(SubjectsArray, &Subject{
+			ID:          id,
+			Subject:     subject,
+			GradeLevel:  gradelevel,
+			Schedule:    sched,
+			TeacherName: teacherName,
+			TeachersID:  teachersID,
+		})
+	}
+
+	return SubjectsArray, nil
+}
+
 func ReadSubjectGradeLevel(db sqlx.Ext, GradeLevel string) ([]*Subject, error) {
 
 	var id int64
