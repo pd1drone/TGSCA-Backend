@@ -183,3 +183,39 @@ func (t *TGSCAConfiguration) UpdateEnrolled(w http.ResponseWriter, r *http.Reque
 
 	respondJSON(w, 200, response)
 }
+
+type ReadEnrolledSubjects struct {
+	UserID int64 `json:"UserID"`
+}
+
+func (t *TGSCAConfiguration) ReadEnrolledSubjects(w http.ResponseWriter, r *http.Request) {
+
+	w.Header().Add("Access-Control-Allow-Origin", "*")
+	w.Header().Add("Access-Control-Allow-Methods", "*")
+	w.Header().Add("Access-Control-Allow-Headers", "*")
+
+	body, err := ioutil.ReadAll(r.Body)
+	if err != nil {
+		respondJSON(w, 500, nil)
+		return
+	}
+	// Restore request body after reading
+	r.Body = io.NopCloser(bytes.NewBuffer(body))
+
+	req := &ReadEnrolledSubjects{}
+
+	err = json.Unmarshal(body, &req)
+	if err != nil {
+		respondJSON(w, 400, nil)
+		return
+	}
+
+	dbResponse, err := database.ReadEnrolledSubjects(t.TGSCAdb, req.UserID)
+	if err != nil {
+		fmt.Println(err)
+		respondJSON(w, 400, nil)
+		return
+	}
+
+	respondJSON(w, 200, dbResponse)
+}

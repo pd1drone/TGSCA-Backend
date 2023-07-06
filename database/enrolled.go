@@ -166,3 +166,65 @@ func UpdateEnrolled(db sqlx.Ext, id int64, studentnumber int64, subjectID int64)
 
 	return nil
 }
+
+func ReadEnrolledSubjects(db sqlx.Ext, userID int64) ([]*ReadEnrolledResponse, error) {
+
+	var studentnum int64
+
+	rows, err := db.Queryx(`SELECT Username FROM Users WHERE ID = ?`, userID)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		err = rows.Scan(&studentnum)
+		if err != nil {
+			return nil, err
+		}
+	}
+
+	var id int64
+	var subID int64
+
+	EnrolledArr := make([]*Enrolled, 0)
+	EnrolledDetailsArray := make([]*ReadEnrolledResponse, 0)
+
+	rows, err = db.Queryx(`SELECT ID,SubjectID FROM Enrolled WHERE StudentNumber = ?`, studentnum)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		err = rows.Scan(&id, &subID)
+		if err != nil {
+			return nil, err
+		}
+
+		EnrolledArr = append(EnrolledArr, &Enrolled{
+			ID:        id,
+			SubjectID: subID,
+		})
+	}
+
+	for _, enrollee := range EnrolledArr {
+
+		enrolleeDetails, err := GetEnrolleeDetails(db, studentnum, enrollee.SubjectID)
+		if err != nil {
+			return nil, err
+		}
+		EnrolledDetailsArray = append(EnrolledDetailsArray, &ReadEnrolledResponse{
+			ID:            enrollee.ID,
+			StudentNumber: enrolleeDetails.StudentNumber,
+			StudentName:   enrolleeDetails.StudentName,
+			GradeLevel:    enrolleeDetails.GradeLevel,
+			Subject:       enrolleeDetails.Subject,
+			Schedule:      enrolleeDetails.Schedule,
+			TeacherName:   enrolleeDetails.TeacherName,
+			SubjectID:     enrollee.SubjectID,
+		})
+	}
+
+	return EnrolledDetailsArray, nil
+}

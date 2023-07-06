@@ -108,6 +108,19 @@ func (t *TGSCAConfiguration) UploadRequirements(w http.ResponseWriter, r *http.R
 	// Return that we have successfully uploaded our file!
 	fmt.Fprintf(w, "Successfully Uploaded File\n")
 
+	// Set the response headers
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+
+	// Write the JavaScript code that performs the redirection
+	redirectScript := `
+			<script>
+				window.location.href = 'http://` + t.FrontEndIP + `:` + t.PortNumber + `/student/requirements.html';
+			</script>
+		`
+
+	// Write the response containing the redirection script
+	w.Write([]byte(redirectScript))
+
 }
 
 func (t *TGSCAConfiguration) ServeFile(w http.ResponseWriter, r *http.Request) {

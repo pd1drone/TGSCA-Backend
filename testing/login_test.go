@@ -51,3 +51,19 @@ func TestLoginAdmin(t *testing.T) {
 
 	fmt.Println(Success1)
 }
+
+func TestGetApproveDetails(t *testing.T) {
+	tgscadb, err := rest.New()
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	Data, err := database.GetStudentEnrollmentStatus(tgscadb.TGSCAdb)
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	for _, d := range Data {
+		fmt.Println(d)
+	}
+}

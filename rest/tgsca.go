@@ -115,6 +115,13 @@ func Routes() {
 	r.Post("/updateEnrolledStudent", newTsgsa.UpdateEnrolledForStudent)
 	r.Delete("/deleteEnrolledStudent", newTsgsa.DeleteEnrolledForStudent)
 
+	// READ ENROLLED SUBJECTS FOR STUDENT
+	r.Post("/readEnrolledSubjects", newTsgsa.ReadEnrolledSubjects)
+
+	// CRUD Enrollment Status
+	r.Post("/getStudentEnrollmentStatus", newTsgsa.GetStudentEnrollmentStatus)
+	r.Post("/approve", newTsgsa.ApproveStudentEnrollment)
+
 	log.Fatal(http.ListenAndServe("0.0.0.0:8082", r))
 }
 

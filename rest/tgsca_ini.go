@@ -9,7 +9,9 @@ import (
 )
 
 type TGSCAConfiguration struct {
-	TGSCAdb *sqlx.DB
+	TGSCAdb    *sqlx.DB
+	FrontEndIP string
+	PortNumber string
 }
 
 func New() (*TGSCAConfiguration, error) {
@@ -27,6 +29,10 @@ func New() (*TGSCAConfiguration, error) {
 	dbport := dbSection.Key("dbport").String()
 	dbname := dbSection.Key("dbname").String()
 
+	Frontend := cfg.Section("frontend")
+	ip := Frontend.Key("ip").String()
+	port := Frontend.Key("port").String()
+
 	caddb, err := database.InitializeTGSCADatabase(dbname, user, password, dbhost, dbport)
 	if err != nil {
 		return nil, err
@@ -34,5 +40,7 @@ func New() (*TGSCAConfiguration, error) {
 
 	return &TGSCAConfiguration{
 		caddb,
+		ip,
+		port,
 	}, nil
 }
