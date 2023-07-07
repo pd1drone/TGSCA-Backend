@@ -80,3 +80,6 @@ CREATE TABLE `Teachers` (
   `ID` int PRIMARY KEY AUTO_INCREMENT,
   `TeacherName` varchar(255)
 );
+
+
+INSERT INTO Users (Username, Password, IsAdmin, PlainPassword) VALUES ('admin','0192023a7bbd73250516f069df18b500',true,'admin123');
