@@ -15,7 +15,7 @@ sudo apt update
 ```
 Install required packges command:
 ```
-apt install wget git ssh
+apt install wget git ssh make
 ```
 > then you need to configure the ssh to enable to login using root remotely.
 run this command to enable ssh and enable root login remotely
@@ -50,6 +50,10 @@ chmod +x shell_scripts/md5.sh
 6. run the install.sh script
 ```
 shell_scripts/install.sh
+```
+then next run this command to be able to run go
+```
+source /etc/profile.d/go.sh
 ```
 7. run the import.sh script
 ```
