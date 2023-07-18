@@ -11,12 +11,13 @@ sudo systemctl enable mariadb
 # Secure the installation
 sudo mysql_secure_installation <<EOF
 
+n
 y
 admin123
 admin123
 y
-y
-y
+n
+n
 y
 EOF
 
