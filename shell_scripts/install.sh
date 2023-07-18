@@ -21,3 +21,16 @@ y
 EOF
 
 echo "MariaDB installation and setup completed!"
+
+
+echo "Installing Golang...."
+cd /root
+wget https://go.dev/dl/go1.20.6.linux-amd64.tar.gz
+sudo tar -zxvf go1.20.6.linux-amd64.tar.gz -C /usr/local/
+echo "export PATH=/usr/local/go/bin:${PATH}" | sudo tee /etc/profile.d/go.sh
+source /etc/profile.d/go.sh
+cd /root/TGSCA-Backend/
+go version
+
+echo "Finished Installing Golang"
+

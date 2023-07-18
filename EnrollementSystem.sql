@@ -49,7 +49,7 @@ CREATE TABLE `EnrolledPending`(
   `ID` int PRIMARY KEY AUTO_INCREMENT,
   `StudentNumber` integer,
   `SubjectID` integer
-)
+);
 
 CREATE TABLE `Enrollment` (
   `ID` int PRIMARY KEY AUTO_INCREMENT,
